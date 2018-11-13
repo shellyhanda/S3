@@ -1,0 +1,533 @@
+zh722e@hdo4241-23:~/s3aws> ls
+AeroDB_.bpmn  s3connection.jar
+zh722e@hdo4241-23:~/s3aws> java -jar s3connection.jar /data/home/zh722e/s3aws/AeroDB_.bpmn
+Trying to connect to S3...
+12:22:20.760 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.https-only=true
+12:22:20.763 [main] DEBUG org.jets3t.service.Jets3tProperties - storage-service.internal-error-retry-max=5
+12:22:20.763 [main] DEBUG org.jets3t.service.Jets3tProperties - storage-service.apply-recommended-dns-caching-defaults=true
+12:22:20.763 [main] DEBUG org.jets3t.service.StorageService - Setting recommended DNS caching defaults
+12:22:20.763 [main] DEBUG org.jets3t.service.StorageService - Using DNS caching system settings: networkaddress.cache.ttl=300, networkaddress.cache.negative.ttl=1
+12:22:20.768 [main] DEBUG org.jets3t.service.Jets3tProperties - http.connection-manager.factory-class-name=org.jets3t.service.utils.RestUtils$ConnManagerFactory
+12:22:20.768 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.connection-timeout-ms=60000
+12:22:20.768 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.socket-timeout-ms=60000
+12:22:20.768 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.stale-checking-enabled=true
+12:22:20.768 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.useragent=null
+12:22:20.771 [main] DEBUG org.jets3t.service.utils.RestUtils - Setting user agent string: JetS3t/0.9.4 (Linux/4.4.114-92.64-default; amd64; en; JVM 1.8.0_144) JetS3t-sample
+12:22:20.771 [main] DEBUG org.jets3t.service.Jets3tProperties - http.protocol.expect-continue=true
+12:22:20.771 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.connection-manager-timeout=0
+12:22:20.780 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.retry-max=5
+12:22:20.780 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.proxy-autodetect=true
+12:22:20.780 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:20.783 [main] DEBUG org.jets3t.service.utils.RestUtils - Unable to set proxy configuration
+java.lang.ExceptionInInitializerError: null
+        at org.jets3t.service.utils.RestUtils.initHttpProxy(RestUtils.java:511)
+        at org.jets3t.service.utils.RestUtils.initHttpProxy(RestUtils.java:388)
+        at org.jets3t.service.impl.rest.httpclient.RestStorageService.initializeProxy(RestStorageService.java:173)
+        at org.jets3t.service.impl.rest.httpclient.RestStorageService.initializeDefaults(RestStorageService.java:167)
+        at org.jets3t.service.StorageService.<init>(StorageService.java:126)
+        at org.jets3t.service.impl.rest.httpclient.RestStorageService.<init>(RestStorageService.java:153)
+        at org.jets3t.service.S3Service.<init>(S3Service.java:96)
+        at org.jets3t.service.impl.rest.httpclient.RestS3Service.<init>(RestS3Service.java:150)
+        at com.shelly.poc.ecs.ecsconnection.Jets3tSample.main(Jets3tSample.java:40)
+Caused by: java.lang.IllegalArgumentException: Host name may not be empty
+        at org.apache.http.util.Args.containsNoBlanks(Args.java:84)
+        at org.apache.http.HttpHost.<init>(HttpHost.java:80)
+        at org.apache.http.HttpHost.<init>(HttpHost.java:99)
+        at org.apache.commons.httpclient.contrib.proxy.PluginProxyUtil.<clinit>(PluginProxyUtil.java:75)
+        ... 9 common frames omitted
+12:22:20.784 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.default-storage-class=null
+12:22:20.784 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.server-side-encryption=null
+12:22:20.784 [main] DEBUG org.jets3t.service.Jets3tProperties - devpay.user-token=null
+12:22:20.784 [main] DEBUG org.jets3t.service.Jets3tProperties - devpay.product-token=null
+12:22:20.784 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.requester-pays-buckets-enabled=false
+Connected to S3..***
+Uploading bpmn file to S3 bucket*************************8
+12:22:20.784 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.default-bucket-location=US
+12:22:20.784 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Creating bucket with name: testbucket8_6_001
+12:22:20.784 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Creating object bucketName=testbucket8_6_001, objectKey=null, storageClass=null. Content-Type=application/octet-stream Including data? false Metadata: {Content-Type=application/octet-stream} ACL: null
+12:22:20.785 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.disable-dns-buckets=false
+12:22:20.785 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:20.785 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint-virtual-path=
+12:22:20.785 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint-https-port=9021
+12:22:20.785 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - S3 URL: https://objectlab.tl.boeing.com:9021/testbucket8_6_001/
+12:22:20.790 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Performing PUT request for 'https://objectlab.tl.boeing.com:9021/testbucket8_6_001/', expecting response codes: [200,204]
+12:22:20.791 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Headers: [Date: Tue, 07 Aug 2018 19:22:20 GMT, Content-Type: application/octet-stream]
+12:22:20.791 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.retry-max=5
+12:22:20.791 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Adding authorization for Access Key 'flightsciences'.
+12:22:20.791 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:20.791 [main] DEBUG org.jets3t.service.Jets3tProperties - storage-service.request-signature-version=AWS2
+12:22:20.791 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:20.792 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Canonical string ('|' is a newline): PUT||application/octet-stream|Tue, 07 Aug 2018 19:22:20 GMT|/testbucket8_6_001/
+12:22:21.000 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.max-connections=20
+12:22:21.000 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.max-connections-per-host=0
+12:22:21.001 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.connection.ttl=-1
+12:22:21.027 [main] DEBUG org.jets3t.service.utils.RestUtils$ThreadSafeConnManager - Get connection: {s}->https://objectlab.tl.boeing.com:9021, timeout = 0
+12:22:21.028 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [{s}->https://objectlab.tl.boeing.com:9021] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+12:22:21.028 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - No free connections [{s}->https://objectlab.tl.boeing.com:9021][null]
+12:22:21.028 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Available capacity: 20 out of 20 [{s}->https://objectlab.tl.boeing.com:9021][null]
+12:22:21.028 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Creating new connection [{s}->https://objectlab.tl.boeing.com:9021]
+12:22:21.091 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to objectlab.tl.boeing.com:9021
+12:22:21.358 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+12:22:21.358 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+12:22:21.359 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+12:22:21.359 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+12:22:21.359 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: PUT /testbucket8_6_001/ HTTP/1.1
+12:22:21.359 [main] DEBUG org.apache.http.wire -  >> "PUT /testbucket8_6_001/ HTTP/1.1[\r][\n]"
+12:22:21.359 [main] DEBUG org.apache.http.wire -  >> "Date: Tue, 07 Aug 2018 19:22:20 GMT[\r][\n]"
+12:22:21.359 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/octet-stream[\r][\n]"
+12:22:21.359 [main] DEBUG org.apache.http.wire -  >> "Authorization: AWS flightsciences:uQFl5xfesLJAna8wOQonSrL3bF0=[\r][\n]"
+12:22:21.360 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 0[\r][\n]"
+12:22:21.360 [main] DEBUG org.apache.http.wire -  >> "Host: objectlab.tl.boeing.com:9021[\r][\n]"
+12:22:21.360 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+12:22:21.360 [main] DEBUG org.apache.http.wire -  >> "User-Agent: JetS3t/0.9.4 (Linux/4.4.114-92.64-default; amd64; en; JVM 1.8.0_144) JetS3t-sample[\r][\n]"
+12:22:21.360 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+12:22:21.360 [main] DEBUG org.apache.http.headers - >> PUT /testbucket8_6_001/ HTTP/1.1
+12:22:21.360 [main] DEBUG org.apache.http.headers - >> Date: Tue, 07 Aug 2018 19:22:20 GMT
+12:22:21.360 [main] DEBUG org.apache.http.headers - >> Content-Type: application/octet-stream
+12:22:21.360 [main] DEBUG org.apache.http.headers - >> Authorization: AWS flightsciences:uQFl5xfesLJAna8wOQonSrL3bF0=
+12:22:21.360 [main] DEBUG org.apache.http.headers - >> Content-Length: 0
+12:22:21.360 [main] DEBUG org.apache.http.headers - >> Host: objectlab.tl.boeing.com:9021
+12:22:21.360 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+12:22:21.360 [main] DEBUG org.apache.http.headers - >> User-Agent: JetS3t/0.9.4 (Linux/4.4.114-92.64-default; amd64; en; JVM 1.8.0_144) JetS3t-sample
+12:22:25.267 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+12:22:25.268 [main] DEBUG org.apache.http.wire -  << "Date: Tue, 07 Aug 2018 19:22:21 GMT[\r][\n]"
+12:22:25.268 [main] DEBUG org.apache.http.wire -  << "Location: /testbucket8_6_001[\r][\n]"
+12:22:25.268 [main] DEBUG org.apache.http.wire -  << "Content-Length: 0[\r][\n]"
+12:22:25.269 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:22:25.269 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+12:22:25.269 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+12:22:25.269 [main] DEBUG org.apache.http.headers - << Date: Tue, 07 Aug 2018 19:22:21 GMT
+12:22:25.269 [main] DEBUG org.apache.http.headers - << Location: /testbucket8_6_001
+12:22:25.269 [main] DEBUG org.apache.http.headers - << Content-Length: 0
+12:22:25.271 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+12:22:25.280 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Response for 'PUT'. Content-Type: , Headers: [Date: Tue, 07 Aug 2018 19:22:21 GMT, Location: /testbucket8_6_001, Content-Length: 0]
+12:22:25.280 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Response entity: org.apache.http.conn.BasicManagedEntity@7a4ccb53
+12:22:25.280 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Entity length: 0
+12:22:25.280 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Received response code 200; matches one of expected set ([200, 204])? true
+12:22:25.281 [main] DEBUG org.jets3t.service.utils.RestUtils$ThreadSafeConnManager - Released connection is reusable.
+12:22:25.281 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [{s}->https://objectlab.tl.boeing.com:9021][null]
+12:22:25.281 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [{s}->https://objectlab.tl.boeing.com:9021][null]; keep alive indefinitely
+12:22:25.281 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+12:22:25.281 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Processing REST metadata items
+12:22:25.281 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving HTTP header item unchanged: Content-Length=0
+12:22:25.281 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Parsing date string 'Tue, 07 Aug 2018 19:22:21 GMT' into Date object for key: Date
+12:22:25.283 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving header item unchanged: Date=Tue Aug 07 12:22:21 PDT 2018
+12:22:25.283 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving HTTP header item unchanged: Content-Type=application/octet-stream
+12:22:25.283 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Ignoring metadata item: Location=/testbucket8_6_001
+Created test bucket: S3Bucket [name=testbucket8_6_001,location=US,creationDate=Tue Aug 07 12:22:21 PDT 2018,owner=null] Metadata={__user__={}, __complete__={Content-Length=0, Date=Tue Aug 07 12:22:21 PDT 2018, Content-Type=application/octet-stream, Location=/testbucket8_6_001}, __http__={Content-Length=0, Date=Tue Aug 07 12:22:21 PDT 2018, Content-Type=application/octet-stream}, __service__={}, Content-Length=0, Date=Tue Aug 07 12:22:21 PDT 2018, Content-Type=application/octet-stream}
+args[0]=/data/home/zh722e/s3aws/AeroDB_.bpmn
+filePath.length()=36
+12:22:25.285 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Creating Object with key testbucket8_6_001_key in bucket testbucket8_6_001
+12:22:25.285 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Uploading object data with Content-Length: 36
+12:22:25.286 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RepeatableRequestEntity - Setting maximal read-ahead mark limit for markable input stream java.io.ByteArrayInputStream assuming it doesn't use in-memory storage: 36
+12:22:25.286 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.read-throttle=0
+12:22:25.286 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:25.286 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.enable-storage-classes=true
+12:22:25.286 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:25.286 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Creating object bucketName=testbucket8_6_001, objectKey=testbucket8_6_001_key, storageClass=null. Content-Type=application/octet-stream Including data? true Metadata: {x-amz-content-sha256=6db65fd59fd356f6729140571b5bcd6bb3b83492a16e1bf0a3884442fc3c8a0e, Content-Length=36, md5-hash=81684c2e68ade2cd4bf9f2e8a67dd4fe, Content-Type=application/octet-stream, Content-MD5=gWhMLmit4s1L+fLopn3U/g==} ACL: null
+12:22:25.286 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.disable-dns-buckets=false
+12:22:25.286 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:25.286 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint-virtual-path=
+12:22:25.287 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint-https-port=9021
+12:22:25.287 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - S3 URL: https://objectlab.tl.boeing.com:9021/testbucket8_6_001/testbucket8_6_001_key
+12:22:25.287 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Performing PUT request for 'https://objectlab.tl.boeing.com:9021/testbucket8_6_001/testbucket8_6_001_key', expecting response codes: [200,204]
+12:22:25.287 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Headers: [Date: Tue, 07 Aug 2018 19:22:25 GMT, x-amz-content-sha256: 6db65fd59fd356f6729140571b5bcd6bb3b83492a16e1bf0a3884442fc3c8a0e, x-amz-meta-md5-hash: 81684c2e68ade2cd4bf9f2e8a67dd4fe, Content-Type: application/octet-stream, Content-MD5: gWhMLmit4s1L+fLopn3U/g==]
+12:22:25.287 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.retry-max=5
+12:22:25.287 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Adding authorization for Access Key 'flightsciences'.
+12:22:25.287 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:25.287 [main] DEBUG org.jets3t.service.Jets3tProperties - storage-service.request-signature-version=AWS2
+12:22:25.287 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:25.287 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Canonical string ('|' is a newline): PUT|gWhMLmit4s1L+fLopn3U/g==|application/octet-stream|Tue, 07 Aug 2018 19:22:25 GMT|x-amz-content-sha256:6db65fd59fd356f6729140571b5bcd6bb3b83492a16e1bf0a3884442fc3c8a0e|x-amz-meta-md5-hash:81684c2e68ade2cd4bf9f2e8a67dd4fe|/testbucket8_6_001/testbucket8_6_001_key
+12:22:25.288 [main] DEBUG org.jets3t.service.utils.RestUtils$ThreadSafeConnManager - Get connection: {s}->https://objectlab.tl.boeing.com:9021, timeout = 0
+12:22:25.288 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [{s}->https://objectlab.tl.boeing.com:9021] total kept alive: 1, total issued: 0, total allocated: 1 out of 20
+12:22:25.288 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Getting free connection [{s}->https://objectlab.tl.boeing.com:9021][null]
+12:22:25.288 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+12:22:25.290 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+12:22:25.290 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+12:22:25.290 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+12:22:25.290 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+12:22:25.290 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: PUT /testbucket8_6_001/testbucket8_6_001_key HTTP/1.1
+12:22:25.290 [main] DEBUG org.apache.http.wire -  >> "PUT /testbucket8_6_001/testbucket8_6_001_key HTTP/1.1[\r][\n]"
+12:22:25.290 [main] DEBUG org.apache.http.wire -  >> "Date: Tue, 07 Aug 2018 19:22:25 GMT[\r][\n]"
+12:22:25.290 [main] DEBUG org.apache.http.wire -  >> "x-amz-content-sha256: 6db65fd59fd356f6729140571b5bcd6bb3b83492a16e1bf0a3884442fc3c8a0e[\r][\n]"
+12:22:25.290 [main] DEBUG org.apache.http.wire -  >> "x-amz-meta-md5-hash: 81684c2e68ade2cd4bf9f2e8a67dd4fe[\r][\n]"
+12:22:25.290 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/octet-stream[\r][\n]"
+12:22:25.291 [main] DEBUG org.apache.http.wire -  >> "Content-MD5: gWhMLmit4s1L+fLopn3U/g==[\r][\n]"
+12:22:25.291 [main] DEBUG org.apache.http.wire -  >> "Authorization: AWS flightsciences:e0HUPzfDuX4pstUOrSnSF7a5wP0=[\r][\n]"
+12:22:25.291 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 36[\r][\n]"
+12:22:25.291 [main] DEBUG org.apache.http.wire -  >> "Host: objectlab.tl.boeing.com:9021[\r][\n]"
+12:22:25.291 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+12:22:25.291 [main] DEBUG org.apache.http.wire -  >> "User-Agent: JetS3t/0.9.4 (Linux/4.4.114-92.64-default; amd64; en; JVM 1.8.0_144) JetS3t-sample[\r][\n]"
+12:22:25.291 [main] DEBUG org.apache.http.wire -  >> "Expect: 100-continue[\r][\n]"
+12:22:25.291 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+12:22:25.291 [main] DEBUG org.apache.http.headers - >> PUT /testbucket8_6_001/testbucket8_6_001_key HTTP/1.1
+12:22:25.291 [main] DEBUG org.apache.http.headers - >> Date: Tue, 07 Aug 2018 19:22:25 GMT
+12:22:25.291 [main] DEBUG org.apache.http.headers - >> x-amz-content-sha256: 6db65fd59fd356f6729140571b5bcd6bb3b83492a16e1bf0a3884442fc3c8a0e
+12:22:25.291 [main] DEBUG org.apache.http.headers - >> x-amz-meta-md5-hash: 81684c2e68ade2cd4bf9f2e8a67dd4fe
+12:22:25.291 [main] DEBUG org.apache.http.headers - >> Content-Type: application/octet-stream
+12:22:25.291 [main] DEBUG org.apache.http.headers - >> Content-MD5: gWhMLmit4s1L+fLopn3U/g==
+12:22:25.293 [main] DEBUG org.apache.http.headers - >> Authorization: AWS flightsciences:e0HUPzfDuX4pstUOrSnSF7a5wP0=
+12:22:25.294 [main] DEBUG org.apache.http.headers - >> Content-Length: 36
+12:22:25.294 [main] DEBUG org.apache.http.headers - >> Host: objectlab.tl.boeing.com:9021
+12:22:25.294 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+12:22:25.294 [main] DEBUG org.apache.http.headers - >> User-Agent: JetS3t/0.9.4 (Linux/4.4.114-92.64-default; amd64; en; JVM 1.8.0_144) JetS3t-sample
+12:22:25.294 [main] DEBUG org.apache.http.headers - >> Expect: 100-continue
+12:22:25.336 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 100 Continue[\r][\n]"
+12:22:25.336 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:22:25.336 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 100 Continue
+12:22:25.336 [main] DEBUG org.apache.http.headers - << HTTP/1.1 100 Continue
+12:22:25.337 [main] DEBUG org.apache.http.wire -  >> "[0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+12:22:25.658 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+12:22:25.658 [main] DEBUG org.apache.http.wire -  << "Date: Tue, 07 Aug 2018 19:22:25 GMT[\r][\n]"
+12:22:25.658 [main] DEBUG org.apache.http.wire -  << "Server: ViPR/1.0[\r][\n]"
+12:22:25.658 [main] DEBUG org.apache.http.wire -  << "x-amz-request-id: ac150707:164a48681bc:115bb:9[\r][\n]"
+12:22:25.659 [main] DEBUG org.apache.http.wire -  << "x-amz-id-2: 06bbf7a5e1a87649ba0638ba0f7405ce4d769f5f5c28be35b1e42ccb90bf21a6[\r][\n]"
+12:22:25.659 [main] DEBUG org.apache.http.wire -  << "ETag: "81684c2e68ade2cd4bf9f2e8a67dd4fe"[\r][\n]"
+12:22:25.659 [main] DEBUG org.apache.http.wire -  << "Last-Modified: Tue, 07 Aug 2018 19:22:25 GMT[\r][\n]"
+12:22:25.659 [main] DEBUG org.apache.http.wire -  << "x-emc-mtime: 1533669745317[\r][\n]"
+12:22:25.659 [main] DEBUG org.apache.http.wire -  << "x-emc-previous-object-size: 0[\r][\n]"
+12:22:25.659 [main] DEBUG org.apache.http.wire -  << "x-amz-server-side-encryption: AES256[\r][\n]"
+12:22:25.659 [main] DEBUG org.apache.http.wire -  << "Content-Length: 0[\r][\n]"
+12:22:25.659 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:22:25.659 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+12:22:25.659 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+12:22:25.659 [main] DEBUG org.apache.http.headers - << Date: Tue, 07 Aug 2018 19:22:25 GMT
+12:22:25.659 [main] DEBUG org.apache.http.headers - << Server: ViPR/1.0
+12:22:25.659 [main] DEBUG org.apache.http.headers - << x-amz-request-id: ac150707:164a48681bc:115bb:9
+12:22:25.659 [main] DEBUG org.apache.http.headers - << x-amz-id-2: 06bbf7a5e1a87649ba0638ba0f7405ce4d769f5f5c28be35b1e42ccb90bf21a6
+12:22:25.659 [main] DEBUG org.apache.http.headers - << ETag: "81684c2e68ade2cd4bf9f2e8a67dd4fe"
+12:22:25.659 [main] DEBUG org.apache.http.headers - << Last-Modified: Tue, 07 Aug 2018 19:22:25 GMT
+12:22:25.659 [main] DEBUG org.apache.http.headers - << x-emc-mtime: 1533669745317
+12:22:25.659 [main] DEBUG org.apache.http.headers - << x-emc-previous-object-size: 0
+12:22:25.659 [main] DEBUG org.apache.http.headers - << x-amz-server-side-encryption: AES256
+12:22:25.659 [main] DEBUG org.apache.http.headers - << Content-Length: 0
+12:22:25.659 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+12:22:25.659 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Response for 'PUT'. Content-Type: , Headers: [Date: Tue, 07 Aug 2018 19:22:25 GMT, Server: ViPR/1.0, x-amz-request-id: ac150707:164a48681bc:115bb:9, x-amz-id-2: 06bbf7a5e1a87649ba0638ba0f7405ce4d769f5f5c28be35b1e42ccb90bf21a6, ETag: "81684c2e68ade2cd4bf9f2e8a67dd4fe", Last-Modified: Tue, 07 Aug 2018 19:22:25 GMT, x-emc-mtime: 1533669745317, x-emc-previous-object-size: 0, x-amz-server-side-encryption: AES256, Content-Length: 0]
+12:22:25.659 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Response entity: org.apache.http.conn.BasicManagedEntity@d4342c2
+12:22:25.660 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Entity length: 0
+12:22:25.660 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Received response code 200; matches one of expected set ([200, 204])? true
+12:22:25.660 [main] DEBUG org.jets3t.service.utils.RestUtils$ThreadSafeConnManager - Released connection is reusable.
+12:22:25.660 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [{s}->https://objectlab.tl.boeing.com:9021][null]
+12:22:25.660 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [{s}->https://objectlab.tl.boeing.com:9021][null]; keep alive indefinitely
+12:22:25.660 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+12:22:25.660 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Processing REST metadata items
+12:22:25.660 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Removed header prefix x-amz- from key: x-amz-content-sha256=>content-sha256
+12:22:25.660 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Ignoring metadata item: x-emc-previous-object-size=0
+12:22:25.660 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Ignoring metadata item: Server=ViPR/1.0
+12:22:25.660 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Parsing date string 'Tue, 07 Aug 2018 19:22:25 GMT' into Date object for key: Last-Modified
+12:22:25.660 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving header item unchanged: Last-Modified=Tue Aug 07 12:22:25 PDT 2018
+12:22:25.660 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Removed header prefix x-amz- from key: x-amz-server-side-encryption=>server-side-encryption
+12:22:25.660 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Parsing date string 'Tue, 07 Aug 2018 19:22:25 GMT' into Date object for key: Date
+12:22:25.661 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving header item unchanged: Date=Tue Aug 07 12:22:25 PDT 2018
+12:22:25.661 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving HTTP header item unchanged: Content-MD5=gWhMLmit4s1L+fLopn3U/g==
+12:22:25.661 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving header item unchanged: ETag="81684c2e68ade2cd4bf9f2e8a67dd4fe"
+12:22:25.661 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Ignoring metadata item: x-emc-mtime=1533669745317
+12:22:25.661 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Ignoring metadata item: md5-hash=81684c2e68ade2cd4bf9f2e8a67dd4fe
+12:22:25.661 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Removed header prefix x-amz- from key: x-amz-request-id=>request-id
+12:22:25.661 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving HTTP header item unchanged: Content-Length=36
+12:22:25.661 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Removed header prefix x-amz- from key: x-amz-id-2=>id-2
+12:22:25.661 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving HTTP header item unchanged: Content-Type=application/octet-stream
+fileBucket.getBucketName()=testbucket8_6_001_key
+fileBucket.getDataInputFile()=null
+fileBucket.getETag()=81684c2e68ade2cd4bf9f2e8a67dd4fe
+fileBucket.getMd5HashAsBase64()=gWhMLmit4s1L+fLopn3U/g==
+fileBucket.getLastModifiedDate()=Tue Aug 07 12:22:25 PDT 2018
+12:22:25.661 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Listing all buckets for user: flightsciences
+12:22:25.662 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.disable-dns-buckets=false
+12:22:25.662 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:25.662 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint-virtual-path=
+12:22:25.662 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint-https-port=9021
+12:22:25.662 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - S3 URL: https://objectlab.tl.boeing.com:9021/
+12:22:25.662 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Performing GET request for 'https://objectlab.tl.boeing.com:9021/', expecting response codes: [200]
+12:22:25.662 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Headers: [Date: Tue, 07 Aug 2018 19:22:25 GMT]
+12:22:25.662 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.retry-max=5
+12:22:25.662 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Adding authorization for Access Key 'flightsciences'.
+12:22:25.662 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:25.662 [main] DEBUG org.jets3t.service.Jets3tProperties - storage-service.request-signature-version=AWS2
+12:22:25.662 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:25.662 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Canonical string ('|' is a newline): GET|||Tue, 07 Aug 2018 19:22:25 GMT|/
+12:22:25.662 [main] DEBUG org.jets3t.service.utils.RestUtils$ThreadSafeConnManager - Get connection: {s}->https://objectlab.tl.boeing.com:9021, timeout = 0
+12:22:25.662 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [{s}->https://objectlab.tl.boeing.com:9021] total kept alive: 1, total issued: 0, total allocated: 1 out of 20
+12:22:25.662 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Getting free connection [{s}->https://objectlab.tl.boeing.com:9021][null]
+12:22:25.662 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+12:22:25.664 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+12:22:25.664 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+12:22:25.664 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+12:22:25.664 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+12:22:25.664 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET / HTTP/1.1
+12:22:25.664 [main] DEBUG org.apache.http.wire -  >> "GET / HTTP/1.1[\r][\n]"
+12:22:25.664 [main] DEBUG org.apache.http.wire -  >> "Date: Tue, 07 Aug 2018 19:22:25 GMT[\r][\n]"
+12:22:25.664 [main] DEBUG org.apache.http.wire -  >> "Authorization: AWS flightsciences:8kIqo7RaDwAJV0FyPfZF4ZBz4Qc=[\r][\n]"
+12:22:25.664 [main] DEBUG org.apache.http.wire -  >> "Host: objectlab.tl.boeing.com:9021[\r][\n]"
+12:22:25.664 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+12:22:25.664 [main] DEBUG org.apache.http.wire -  >> "User-Agent: JetS3t/0.9.4 (Linux/4.4.114-92.64-default; amd64; en; JVM 1.8.0_144) JetS3t-sample[\r][\n]"
+12:22:25.664 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+12:22:25.664 [main] DEBUG org.apache.http.headers - >> GET / HTTP/1.1
+12:22:25.664 [main] DEBUG org.apache.http.headers - >> Date: Tue, 07 Aug 2018 19:22:25 GMT
+12:22:25.664 [main] DEBUG org.apache.http.headers - >> Authorization: AWS flightsciences:8kIqo7RaDwAJV0FyPfZF4ZBz4Qc=
+12:22:25.664 [main] DEBUG org.apache.http.headers - >> Host: objectlab.tl.boeing.com:9021
+12:22:25.664 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+12:22:25.664 [main] DEBUG org.apache.http.headers - >> User-Agent: JetS3t/0.9.4 (Linux/4.4.114-92.64-default; amd64; en; JVM 1.8.0_144) JetS3t-sample
+12:22:25.981 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+12:22:25.981 [main] DEBUG org.apache.http.wire -  << "Date: Tue, 07 Aug 2018 19:22:25 GMT[\r][\n]"
+12:22:25.981 [main] DEBUG org.apache.http.wire -  << "Server: ViPR/1.0[\r][\n]"
+12:22:25.981 [main] DEBUG org.apache.http.wire -  << "x-amz-request-id: ac150707:164a48681bc:116c6:1[\r][\n]"
+12:22:25.981 [main] DEBUG org.apache.http.wire -  << "x-amz-id-2: [\r][\n]"
+12:22:25.981 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/xml[\r][\n]"
+12:22:25.981 [main] DEBUG org.apache.http.wire -  << "Content-Length: 603[\r][\n]"
+12:22:25.981 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:22:25.981 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+12:22:25.981 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+12:22:25.981 [main] DEBUG org.apache.http.headers - << Date: Tue, 07 Aug 2018 19:22:25 GMT
+12:22:25.981 [main] DEBUG org.apache.http.headers - << Server: ViPR/1.0
+12:22:25.981 [main] DEBUG org.apache.http.headers - << x-amz-request-id: ac150707:164a48681bc:116c6:1
+12:22:25.981 [main] DEBUG org.apache.http.headers - << x-amz-id-2:
+12:22:25.981 [main] DEBUG org.apache.http.headers - << Content-Type: application/xml
+12:22:25.981 [main] DEBUG org.apache.http.headers - << Content-Length: 603
+12:22:25.981 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+12:22:25.981 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Response for 'GET'. Content-Type: application/xml, Headers: [Date: Tue, 07 Aug 2018 19:22:25 GMT, Server: ViPR/1.0, x-amz-request-id: ac150707:164a48681bc:116c6:1, x-amz-id-2: , Content-Type: application/xml, Content-Length: 603]
+12:22:25.981 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Response entity: org.apache.http.conn.BasicManagedEntity@2bbf180e
+12:22:25.981 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Entity length: 603
+12:22:25.982 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Received response code 200; matches one of expected set ([200])? true
+12:22:25.998 [main] DEBUG org.jets3t.service.Jets3tProperties - xmlparser.sanitize-listings=true
+12:22:25.998 [main] DEBUG org.jets3t.service.impl.rest.XmlResponsesSaxParser - Sanitizing XML document destined for handler class org.jets3t.service.impl.rest.XmlResponsesSaxParser$ListAllMyBucketsHandler
+12:22:25.998 [main] DEBUG org.apache.http.wire -  << "<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ListAllMyBucketsResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Owner><ID>flightsciences</ID><DisplayName>flightsciences</DisplayName></Owner><Buckets><Bucket><Name>ecfd.dev.bpm</Name><CreationDate>2018-08-06T23:57:14.494Z</CreationDate><ServerSideEncryptionEnabled>true</ServerSideEncryptionEnabled></Bucket><Bucket><Name>testbucket8_6_001</Name><CreationDate>2018-08-07T00:04:44.873Z</CreationDate><ServerSideEncryptionEnabled>true</ServerSideEncryptionEnabled></Bucket></Buckets><IsTruncated>false</IsTruncated></ListAllMyBucketsResult>"
+12:22:25.998 [main] DEBUG org.jets3t.service.utils.RestUtils$ThreadSafeConnManager - Released connection is reusable.
+12:22:25.998 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [{s}->https://objectlab.tl.boeing.com:9021][null]
+12:22:25.998 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [{s}->https://objectlab.tl.boeing.com:9021][null]; keep alive indefinitely
+12:22:25.998 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+12:22:25.998 [main] DEBUG org.jets3t.service.impl.rest.httpclient.HttpMethodReleaseInputStream - Released HttpMethod as its response data stream is fully consumed
+12:22:25.999 [main] DEBUG org.jets3t.service.impl.rest.XmlResponsesSaxParser - Parsing XML response document with handler: class org.jets3t.service.impl.rest.XmlResponsesSaxParser$ListAllMyBucketsHandler
+12:22:26.003 [main] DEBUG org.jets3t.service.impl.rest.XmlResponsesSaxParser - Created new bucket from listing: S3Bucket [name=ecfd.dev.bpm,location=null,creationDate=Mon Aug 06 16:57:14 PDT 2018,owner=null] Metadata={Date=Mon Aug 06 16:57:14 PDT 2018}
+12:22:26.003 [main] DEBUG org.jets3t.service.impl.rest.XmlResponsesSaxParser - Created new bucket from listing: S3Bucket [name=testbucket8_6_001,location=null,creationDate=Mon Aug 06 17:04:44 PDT 2018,owner=null] Metadata={Date=Mon Aug 06 17:04:44 PDT 2018}
+all buckets[Lorg.jets3t.service.model.S3Bucket;@7f552bd3
+12:22:26.003 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Listing all buckets for user: flightsciences
+12:22:26.003 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.disable-dns-buckets=false
+12:22:26.003 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:26.003 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint-virtual-path=
+12:22:26.003 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint-https-port=9021
+12:22:26.003 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - S3 URL: https://objectlab.tl.boeing.com:9021/
+12:22:26.003 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Performing GET request for 'https://objectlab.tl.boeing.com:9021/', expecting response codes: [200]
+12:22:26.004 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Headers: [Date: Tue, 07 Aug 2018 19:22:26 GMT]
+12:22:26.004 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.retry-max=5
+12:22:26.004 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Adding authorization for Access Key 'flightsciences'.
+12:22:26.004 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:26.004 [main] DEBUG org.jets3t.service.Jets3tProperties - storage-service.request-signature-version=AWS2
+12:22:26.004 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:26.004 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Canonical string ('|' is a newline): GET|||Tue, 07 Aug 2018 19:22:26 GMT|/
+12:22:26.004 [main] DEBUG org.jets3t.service.utils.RestUtils$ThreadSafeConnManager - Get connection: {s}->https://objectlab.tl.boeing.com:9021, timeout = 0
+12:22:26.004 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [{s}->https://objectlab.tl.boeing.com:9021] total kept alive: 1, total issued: 0, total allocated: 1 out of 20
+12:22:26.004 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Getting free connection [{s}->https://objectlab.tl.boeing.com:9021][null]
+12:22:26.004 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+12:22:26.005 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+12:22:26.005 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+12:22:26.005 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+12:22:26.005 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+12:22:26.005 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET / HTTP/1.1
+12:22:26.006 [main] DEBUG org.apache.http.wire -  >> "GET / HTTP/1.1[\r][\n]"
+12:22:26.006 [main] DEBUG org.apache.http.wire -  >> "Date: Tue, 07 Aug 2018 19:22:26 GMT[\r][\n]"
+12:22:26.006 [main] DEBUG org.apache.http.wire -  >> "Authorization: AWS flightsciences:YjqpnUH1DOW0cF7oqUCNtyYeTFo=[\r][\n]"
+12:22:26.006 [main] DEBUG org.apache.http.wire -  >> "Host: objectlab.tl.boeing.com:9021[\r][\n]"
+12:22:26.006 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+12:22:26.006 [main] DEBUG org.apache.http.wire -  >> "User-Agent: JetS3t/0.9.4 (Linux/4.4.114-92.64-default; amd64; en; JVM 1.8.0_144) JetS3t-sample[\r][\n]"
+12:22:26.006 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+12:22:26.006 [main] DEBUG org.apache.http.headers - >> GET / HTTP/1.1
+12:22:26.006 [main] DEBUG org.apache.http.headers - >> Date: Tue, 07 Aug 2018 19:22:26 GMT
+12:22:26.006 [main] DEBUG org.apache.http.headers - >> Authorization: AWS flightsciences:YjqpnUH1DOW0cF7oqUCNtyYeTFo=
+12:22:26.006 [main] DEBUG org.apache.http.headers - >> Host: objectlab.tl.boeing.com:9021
+12:22:26.006 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+12:22:26.006 [main] DEBUG org.apache.http.headers - >> User-Agent: JetS3t/0.9.4 (Linux/4.4.114-92.64-default; amd64; en; JVM 1.8.0_144) JetS3t-sample
+12:22:26.288 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+12:22:26.288 [main] DEBUG org.apache.http.wire -  << "Date: Tue, 07 Aug 2018 19:22:26 GMT[\r][\n]"
+12:22:26.288 [main] DEBUG org.apache.http.wire -  << "Server: ViPR/1.0[\r][\n]"
+12:22:26.288 [main] DEBUG org.apache.http.wire -  << "x-amz-request-id: ac150707:164a48681bc:115bb:1e[\r][\n]"
+12:22:26.288 [main] DEBUG org.apache.http.wire -  << "x-amz-id-2: [\r][\n]"
+12:22:26.288 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/xml[\r][\n]"
+12:22:26.288 [main] DEBUG org.apache.http.wire -  << "Content-Length: 603[\r][\n]"
+12:22:26.288 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:22:26.288 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+12:22:26.288 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+12:22:26.288 [main] DEBUG org.apache.http.headers - << Date: Tue, 07 Aug 2018 19:22:26 GMT
+12:22:26.288 [main] DEBUG org.apache.http.headers - << Server: ViPR/1.0
+12:22:26.288 [main] DEBUG org.apache.http.headers - << x-amz-request-id: ac150707:164a48681bc:115bb:1e
+12:22:26.288 [main] DEBUG org.apache.http.headers - << x-amz-id-2:
+12:22:26.288 [main] DEBUG org.apache.http.headers - << Content-Type: application/xml
+12:22:26.288 [main] DEBUG org.apache.http.headers - << Content-Length: 603
+12:22:26.288 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+12:22:26.288 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Response for 'GET'. Content-Type: application/xml, Headers: [Date: Tue, 07 Aug 2018 19:22:26 GMT, Server: ViPR/1.0, x-amz-request-id: ac150707:164a48681bc:115bb:1e, x-amz-id-2: , Content-Type: application/xml, Content-Length: 603]
+12:22:26.288 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Response entity: org.apache.http.conn.BasicManagedEntity@3c22fc4c
+12:22:26.288 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Entity length: 603
+12:22:26.288 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Received response code 200; matches one of expected set ([200])? true
+12:22:26.289 [main] DEBUG org.jets3t.service.Jets3tProperties - xmlparser.sanitize-listings=true
+12:22:26.289 [main] DEBUG org.jets3t.service.impl.rest.XmlResponsesSaxParser - Sanitizing XML document destined for handler class org.jets3t.service.impl.rest.XmlResponsesSaxParser$ListAllMyBucketsHandler
+12:22:26.289 [main] DEBUG org.apache.http.wire -  << "<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ListAllMyBucketsResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Owner><ID>flightsciences</ID><DisplayName>flightsciences</DisplayName></Owner><Buckets><Bucket><Name>ecfd.dev.bpm</Name><CreationDate>2018-08-06T23:57:14.494Z</CreationDate><ServerSideEncryptionEnabled>true</ServerSideEncryptionEnabled></Bucket><Bucket><Name>testbucket8_6_001</Name><CreationDate>2018-08-07T00:04:44.873Z</CreationDate><ServerSideEncryptionEnabled>true</ServerSideEncryptionEnabled></Bucket></Buckets><IsTruncated>false</IsTruncated></ListAllMyBucketsResult>"
+12:22:26.289 [main] DEBUG org.jets3t.service.utils.RestUtils$ThreadSafeConnManager - Released connection is reusable.
+12:22:26.289 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [{s}->https://objectlab.tl.boeing.com:9021][null]
+12:22:26.289 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [{s}->https://objectlab.tl.boeing.com:9021][null]; keep alive indefinitely
+12:22:26.289 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+12:22:26.289 [main] DEBUG org.jets3t.service.impl.rest.httpclient.HttpMethodReleaseInputStream - Released HttpMethod as its response data stream is fully consumed
+12:22:26.289 [main] DEBUG org.jets3t.service.impl.rest.XmlResponsesSaxParser - Parsing XML response document with handler: class org.jets3t.service.impl.rest.XmlResponsesSaxParser$ListAllMyBucketsHandler
+12:22:26.290 [main] DEBUG org.jets3t.service.impl.rest.XmlResponsesSaxParser - Created new bucket from listing: S3Bucket [name=ecfd.dev.bpm,location=null,creationDate=Mon Aug 06 16:57:14 PDT 2018,owner=null] Metadata={Date=Mon Aug 06 16:57:14 PDT 2018}
+12:22:26.290 [main] DEBUG org.jets3t.service.impl.rest.XmlResponsesSaxParser - Created new bucket from listing: S3Bucket [name=testbucket8_6_001,location=null,creationDate=Mon Aug 06 17:04:44 PDT 2018,owner=null] Metadata={Date=Mon Aug 06 17:04:44 PDT 2018}
+Bucket Name===ecfd.dev.bpmBucket===null--------------
+Bucket Name===testbucket8_6_001Bucket===null--------------
+12:22:26.291 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Retrieving versioned Access Control List for bucketName=testbucket8_6_001, objectKey=testbucket8_6_001_key
+12:22:26.291 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.disable-dns-buckets=false
+12:22:26.291 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:26.291 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint-virtual-path=
+12:22:26.291 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint-https-port=9021
+12:22:26.291 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - S3 URL: https://objectlab.tl.boeing.com:9021/testbucket8_6_001/testbucket8_6_001_key
+12:22:26.291 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Added request parameter without value: acl
+12:22:26.291 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Performing GET request for 'https://objectlab.tl.boeing.com:9021/testbucket8_6_001/testbucket8_6_001_key?acl', expecting response codes: [200]
+12:22:26.291 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Headers: [Date: Tue, 07 Aug 2018 19:22:26 GMT]
+12:22:26.291 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.retry-max=5
+12:22:26.291 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Adding authorization for Access Key 'flightsciences'.
+12:22:26.292 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:26.292 [main] DEBUG org.jets3t.service.Jets3tProperties - storage-service.request-signature-version=AWS2
+12:22:26.292 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:26.292 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Canonical string ('|' is a newline): GET|||Tue, 07 Aug 2018 19:22:26 GMT|/testbucket8_6_001/testbucket8_6_001_key?acl
+12:22:26.292 [main] DEBUG org.jets3t.service.utils.RestUtils$ThreadSafeConnManager - Get connection: {s}->https://objectlab.tl.boeing.com:9021, timeout = 0
+12:22:26.292 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [{s}->https://objectlab.tl.boeing.com:9021] total kept alive: 1, total issued: 0, total allocated: 1 out of 20
+12:22:26.292 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Getting free connection [{s}->https://objectlab.tl.boeing.com:9021][null]
+12:22:26.292 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+12:22:26.295 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+12:22:26.295 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+12:22:26.295 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+12:22:26.295 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+12:22:26.295 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /testbucket8_6_001/testbucket8_6_001_key?acl HTTP/1.1
+12:22:26.295 [main] DEBUG org.apache.http.wire -  >> "GET /testbucket8_6_001/testbucket8_6_001_key?acl HTTP/1.1[\r][\n]"
+12:22:26.295 [main] DEBUG org.apache.http.wire -  >> "Date: Tue, 07 Aug 2018 19:22:26 GMT[\r][\n]"
+12:22:26.295 [main] DEBUG org.apache.http.wire -  >> "Authorization: AWS flightsciences:zPbtkwczXl5RNkbWxLs495nShtU=[\r][\n]"
+12:22:26.295 [main] DEBUG org.apache.http.wire -  >> "Host: objectlab.tl.boeing.com:9021[\r][\n]"
+12:22:26.295 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+12:22:26.295 [main] DEBUG org.apache.http.wire -  >> "User-Agent: JetS3t/0.9.4 (Linux/4.4.114-92.64-default; amd64; en; JVM 1.8.0_144) JetS3t-sample[\r][\n]"
+12:22:26.295 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+12:22:26.295 [main] DEBUG org.apache.http.headers - >> GET /testbucket8_6_001/testbucket8_6_001_key?acl HTTP/1.1
+12:22:26.295 [main] DEBUG org.apache.http.headers - >> Date: Tue, 07 Aug 2018 19:22:26 GMT
+12:22:26.295 [main] DEBUG org.apache.http.headers - >> Authorization: AWS flightsciences:zPbtkwczXl5RNkbWxLs495nShtU=
+12:22:26.295 [main] DEBUG org.apache.http.headers - >> Host: objectlab.tl.boeing.com:9021
+12:22:26.295 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+12:22:26.295 [main] DEBUG org.apache.http.headers - >> User-Agent: JetS3t/0.9.4 (Linux/4.4.114-92.64-default; amd64; en; JVM 1.8.0_144) JetS3t-sample
+12:22:26.348 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+12:22:26.348 [main] DEBUG org.apache.http.wire -  << "Date: Tue, 07 Aug 2018 19:22:26 GMT[\r][\n]"
+12:22:26.349 [main] DEBUG org.apache.http.wire -  << "Server: ViPR/1.0[\r][\n]"
+12:22:26.349 [main] DEBUG org.apache.http.wire -  << "x-amz-request-id: ac150707:164a48681bc:116c6:6[\r][\n]"
+12:22:26.349 [main] DEBUG org.apache.http.wire -  << "x-amz-id-2: 06bbf7a5e1a87649ba0638ba0f7405ce4d769f5f5c28be35b1e42ccb90bf21a6[\r][\n]"
+12:22:26.349 [main] DEBUG org.apache.http.wire -  << "Last-Modified: Tue, 7 Aug 2018 19:22:25 GMT[\r][\n]"
+12:22:26.349 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/xml[\r][\n]"
+12:22:26.349 [main] DEBUG org.apache.http.wire -  << "Content-Length: 478[\r][\n]"
+12:22:26.349 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:22:26.349 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+12:22:26.349 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+12:22:26.349 [main] DEBUG org.apache.http.headers - << Date: Tue, 07 Aug 2018 19:22:26 GMT
+12:22:26.349 [main] DEBUG org.apache.http.headers - << Server: ViPR/1.0
+12:22:26.349 [main] DEBUG org.apache.http.headers - << x-amz-request-id: ac150707:164a48681bc:116c6:6
+12:22:26.349 [main] DEBUG org.apache.http.headers - << x-amz-id-2: 06bbf7a5e1a87649ba0638ba0f7405ce4d769f5f5c28be35b1e42ccb90bf21a6
+12:22:26.349 [main] DEBUG org.apache.http.headers - << Last-Modified: Tue, 7 Aug 2018 19:22:25 GMT
+12:22:26.349 [main] DEBUG org.apache.http.headers - << Content-Type: application/xml
+12:22:26.349 [main] DEBUG org.apache.http.headers - << Content-Length: 478
+12:22:26.349 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+12:22:26.349 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Response for 'GET'. Content-Type: application/xml, Headers: [Date: Tue, 07 Aug 2018 19:22:26 GMT, Server: ViPR/1.0, x-amz-request-id: ac150707:164a48681bc:116c6:6, x-amz-id-2: 06bbf7a5e1a87649ba0638ba0f7405ce4d769f5f5c28be35b1e42ccb90bf21a6, Last-Modified: Tue, 7 Aug 2018 19:22:25 GMT, Content-Type: application/xml, Content-Length: 478]
+12:22:26.349 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Response entity: org.apache.http.conn.BasicManagedEntity@1b1473ab
+12:22:26.349 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Entity length: 478
+12:22:26.349 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Received response code 200; matches one of expected set ([200])? true
+12:22:26.350 [main] DEBUG org.jets3t.service.impl.rest.XmlResponsesSaxParser - Parsing XML response document with handler: class org.jets3t.service.impl.rest.AccessControlListHandler
+12:22:26.350 [main] DEBUG org.apache.http.wire -  << "<?xml version="1.0" encoding="UTF-8" standalone="yes"?><AccessControlPolicy xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Owner><ID>flightsciences</ID><DisplayName>flightsciences</DisplayName></Owner><AccessControlList><Grant><Grantee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CanonicalUser"><ID>flightsciences</ID><DisplayName>flightsciences</DisplayName></Grantee><Permission>FULL_CONTROL</Permission></Grant></AccessControlList></AccessControlPolicy>"
+12:22:26.353 [main] DEBUG org.jets3t.service.utils.RestUtils$ThreadSafeConnManager - Released connection is reusable.
+12:22:26.353 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [{s}->https://objectlab.tl.boeing.com:9021][null]
+12:22:26.353 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [{s}->https://objectlab.tl.boeing.com:9021][null]; keep alive indefinitely
+12:22:26.353 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+12:22:26.353 [main] DEBUG org.jets3t.service.impl.rest.httpclient.HttpMethodReleaseInputStream - Released HttpMethod as its response data stream is fully consumed
+Testbucket=AccessControlList [owner=org.jets3t.service.model.S3Owner [id=flightsciences, name=flightsciences], grants=[GrantAndPermission [grantee=CanonicalGrantee [id=flightsciences, displayName=flightsciences], permission=FULL_CONTROL]]]
+Content printing***************************
+12:22:26.354 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Retrieving All information for bucket testbucket8_6_001 and object testbucket8_6_001_key
+12:22:26.354 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.disable-dns-buckets=false
+12:22:26.354 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:26.354 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint-virtual-path=
+12:22:26.354 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint-https-port=9021
+12:22:26.354 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - S3 URL: https://objectlab.tl.boeing.com:9021/testbucket8_6_001/testbucket8_6_001_key
+12:22:26.354 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Performing GET request for 'https://objectlab.tl.boeing.com:9021/testbucket8_6_001/testbucket8_6_001_key', expecting response codes: [200]
+12:22:26.354 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Headers: [Date: Tue, 07 Aug 2018 19:22:26 GMT]
+12:22:26.354 [main] DEBUG org.jets3t.service.Jets3tProperties - httpclient.retry-max=5
+12:22:26.354 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Adding authorization for Access Key 'flightsciences'.
+12:22:26.354 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:26.354 [main] DEBUG org.jets3t.service.Jets3tProperties - storage-service.request-signature-version=AWS2
+12:22:26.354 [main] DEBUG org.jets3t.service.Jets3tProperties - s3service.s3-endpoint=objectlab.tl.boeing.com
+12:22:26.354 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Canonical string ('|' is a newline): GET|||Tue, 07 Aug 2018 19:22:26 GMT|/testbucket8_6_001/testbucket8_6_001_key
+12:22:26.354 [main] DEBUG org.jets3t.service.utils.RestUtils$ThreadSafeConnManager - Get connection: {s}->https://objectlab.tl.boeing.com:9021, timeout = 0
+12:22:26.354 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [{s}->https://objectlab.tl.boeing.com:9021] total kept alive: 1, total issued: 0, total allocated: 1 out of 20
+12:22:26.354 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Getting free connection [{s}->https://objectlab.tl.boeing.com:9021][null]
+12:22:26.354 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+12:22:26.355 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+12:22:26.355 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+12:22:26.355 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+12:22:26.355 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+12:22:26.355 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /testbucket8_6_001/testbucket8_6_001_key HTTP/1.1
+12:22:26.356 [main] DEBUG org.apache.http.wire -  >> "GET /testbucket8_6_001/testbucket8_6_001_key HTTP/1.1[\r][\n]"
+12:22:26.356 [main] DEBUG org.apache.http.wire -  >> "Date: Tue, 07 Aug 2018 19:22:26 GMT[\r][\n]"
+12:22:26.356 [main] DEBUG org.apache.http.wire -  >> "Authorization: AWS flightsciences:xO1uB+f4H7TJ24oVXtuS3SaL2Ds=[\r][\n]"
+12:22:26.356 [main] DEBUG org.apache.http.wire -  >> "Host: objectlab.tl.boeing.com:9021[\r][\n]"
+12:22:26.356 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+12:22:26.356 [main] DEBUG org.apache.http.wire -  >> "User-Agent: JetS3t/0.9.4 (Linux/4.4.114-92.64-default; amd64; en; JVM 1.8.0_144) JetS3t-sample[\r][\n]"
+12:22:26.356 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+12:22:26.356 [main] DEBUG org.apache.http.headers - >> GET /testbucket8_6_001/testbucket8_6_001_key HTTP/1.1
+12:22:26.356 [main] DEBUG org.apache.http.headers - >> Date: Tue, 07 Aug 2018 19:22:26 GMT
+12:22:26.356 [main] DEBUG org.apache.http.headers - >> Authorization: AWS flightsciences:xO1uB+f4H7TJ24oVXtuS3SaL2Ds=
+12:22:26.356 [main] DEBUG org.apache.http.headers - >> Host: objectlab.tl.boeing.com:9021
+12:22:26.356 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+12:22:26.356 [main] DEBUG org.apache.http.headers - >> User-Agent: JetS3t/0.9.4 (Linux/4.4.114-92.64-default; amd64; en; JVM 1.8.0_144) JetS3t-sample
+12:22:26.415 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+12:22:26.415 [main] DEBUG org.apache.http.wire -  << "Date: Tue, 07 Aug 2018 19:22:26 GMT[\r][\n]"
+12:22:26.415 [main] DEBUG org.apache.http.wire -  << "Server: ViPR/1.0[\r][\n]"
+12:22:26.415 [main] DEBUG org.apache.http.wire -  << "x-amz-request-id: ac150707:164a48681bc:115bb:23[\r][\n]"
+12:22:26.415 [main] DEBUG org.apache.http.wire -  << "x-amz-id-2: 06bbf7a5e1a87649ba0638ba0f7405ce4d769f5f5c28be35b1e42ccb90bf21a6[\r][\n]"
+12:22:26.415 [main] DEBUG org.apache.http.wire -  << "ETag: "81684c2e68ade2cd4bf9f2e8a67dd4fe"[\r][\n]"
+12:22:26.415 [main] DEBUG org.apache.http.wire -  << "Last-Modified: Tue, 07 Aug 2018 19:22:25 GMT[\r][\n]"
+12:22:26.415 [main] DEBUG org.apache.http.wire -  << "x-emc-mtime: 1533669745317[\r][\n]"
+12:22:26.415 [main] DEBUG org.apache.http.wire -  << "x-amz-meta-md5-hash: 81684c2e68ade2cd4bf9f2e8a67dd4fe[\r][\n]"
+12:22:26.415 [main] DEBUG org.apache.http.wire -  << "x-amz-server-side-encryption: AES256[\r][\n]"
+12:22:26.415 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/octet-stream[\r][\n]"
+12:22:26.415 [main] DEBUG org.apache.http.wire -  << "Content-Length: 36[\r][\n]"
+12:22:26.415 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:22:26.415 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+12:22:26.415 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+12:22:26.415 [main] DEBUG org.apache.http.headers - << Date: Tue, 07 Aug 2018 19:22:26 GMT
+12:22:26.415 [main] DEBUG org.apache.http.headers - << Server: ViPR/1.0
+12:22:26.415 [main] DEBUG org.apache.http.headers - << x-amz-request-id: ac150707:164a48681bc:115bb:23
+12:22:26.415 [main] DEBUG org.apache.http.headers - << x-amz-id-2: 06bbf7a5e1a87649ba0638ba0f7405ce4d769f5f5c28be35b1e42ccb90bf21a6
+12:22:26.415 [main] DEBUG org.apache.http.headers - << ETag: "81684c2e68ade2cd4bf9f2e8a67dd4fe"
+12:22:26.415 [main] DEBUG org.apache.http.headers - << Last-Modified: Tue, 07 Aug 2018 19:22:25 GMT
+12:22:26.415 [main] DEBUG org.apache.http.headers - << x-emc-mtime: 1533669745317
+12:22:26.415 [main] DEBUG org.apache.http.headers - << x-amz-meta-md5-hash: 81684c2e68ade2cd4bf9f2e8a67dd4fe
+12:22:26.415 [main] DEBUG org.apache.http.headers - << x-amz-server-side-encryption: AES256
+12:22:26.415 [main] DEBUG org.apache.http.headers - << Content-Type: application/octet-stream
+12:22:26.415 [main] DEBUG org.apache.http.headers - << Content-Length: 36
+12:22:26.415 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+12:22:26.415 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Response for 'GET'. Content-Type: application/octet-stream, Headers: [Date: Tue, 07 Aug 2018 19:22:26 GMT, Server: ViPR/1.0, x-amz-request-id: ac150707:164a48681bc:115bb:23, x-amz-id-2: 06bbf7a5e1a87649ba0638ba0f7405ce4d769f5f5c28be35b1e42ccb90bf21a6, ETag: "81684c2e68ade2cd4bf9f2e8a67dd4fe", Last-Modified: Tue, 07 Aug 2018 19:22:25 GMT, x-emc-mtime: 1533669745317, x-amz-meta-md5-hash: 81684c2e68ade2cd4bf9f2e8a67dd4fe, x-amz-server-side-encryption: AES256, Content-Type: application/octet-stream, Content-Length: 36]
+12:22:26.415 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Response entity: org.apache.http.conn.BasicManagedEntity@bef2d72
+12:22:26.415 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Entity length: 36
+12:22:26.415 [main] DEBUG org.jets3t.service.impl.rest.httpclient.RestStorageService - Received response code 200; matches one of expected set ([200])? true
+12:22:26.415 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Processing REST metadata items
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Ignoring metadata item: Server=ViPR/1.0
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving header item unchanged: ETag="81684c2e68ade2cd4bf9f2e8a67dd4fe"
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Ignoring metadata item: x-emc-mtime=1533669745317
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Removed header prefix x-amz- from key: x-amz-request-id=>request-id
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Parsing date string 'Tue, 07 Aug 2018 19:22:25 GMT' into Date object for key: Last-Modified
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving header item unchanged: Last-Modified=Tue Aug 07 12:22:25 PDT 2018
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Removed header prefix x-amz- from key: x-amz-id-2=>id-2
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Removed header prefix x-amz- from key: x-amz-server-side-encryption=>server-side-encryption
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving HTTP header item unchanged: Content-Length=36
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Parsing date string 'Tue, 07 Aug 2018 19:22:26 GMT' into Date object for key: Date
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving header item unchanged: Date=Tue Aug 07 12:22:26 PDT 2018
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Removed user metadata header prefix x-amz-meta- from key: x-amz-meta-md5-hash=>md5-hash
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.ServiceUtils - Leaving HTTP header item unchanged: Content-Type=application/octet-stream
+myfileObjapplication/octet-stream,name ==testbucket8_6_001_key
+DAta...........................................
+12:22:26.416 [main] DEBUG org.apache.http.wire -  << "[0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+12:22:26.416 [main] DEBUG org.jets3t.service.utils.RestUtils$ThreadSafeConnManager - Released connection is reusable.
+12:22:26.416 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [{s}->https://objectlab.tl.boeing.com:9021][null]
+12:22:26.416 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [{s}->https://objectlab.tl.boeing.com:9021][null]; keep alive indefinitely
+12:22:26.416 [main] DEBUG org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+12:22:26.417 [main] DEBUG org.jets3t.service.impl.rest.httpclient.HttpMethodReleaseInputStream - Released HttpMethod as its response data stream is fully consumed
+
+zh722e@hdo4241-23:~/s3aws>

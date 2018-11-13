@@ -1,0 +1,32 @@
+package com.shelly.poc.ecs.ecsconnection;
+
+import java.io.IOException;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ConnectionController {
+
+	 
+    @RequestMapping("/hello")
+    public String hello() {
+    	try {
+			S3AWSSample.main(null);
+		} catch (IOException e) {
+			System.out.println("Error inside the controller....");
+			e.printStackTrace();
+		}
+        return "hello";
+    }
+    @RequestMapping("/ecs")
+    public String ecsDelete() {
+    	try {
+			S3AWSECS.main(null);
+		} catch (IOException e) {
+			System.out.println("Error inside the controller....");
+			e.printStackTrace();
+		}
+        return "ecs";
+    }
+}

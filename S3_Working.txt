@@ -1,0 +1,8 @@
+•create a new storage bucket
+•List buckets in a project.
+•Get bucket information.
+•Move or rename a bucket.
+•Delete a bucket.
+•Upload an object to your bucket
+•copy the object in the same bucket.
+•Delete Object.

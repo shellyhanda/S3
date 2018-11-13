@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.shelly.poc.ecs.ecsconnection.S3AWSECS&apos; to &apos;S3AWSDellECS&apos;&#x0D;&#x0A;- Original project: &apos;ecsconnection&apos;&#x0D;&#x0A;- Original element: &apos;com.shelly.poc.ecs.ecsconnection.S3AWSECS&apos;&#x0D;&#x0A;- Renamed element: &apos;com.shelly.poc.ecs.ecsconnection.S3AWSDellECS&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;S3AWSECS&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.shelly.poc.ecs.ecsconnection{S3AWSECS.java[S3AWSECS" matchStrategy="1" name="S3AWSDellECS" qualified="false" references="true" similarDeclarations="false" stamp="1533592159348" textual="false" version="1.0"/>
+</session>

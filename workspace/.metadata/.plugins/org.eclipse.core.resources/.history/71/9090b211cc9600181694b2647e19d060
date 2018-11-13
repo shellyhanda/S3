@@ -1,0 +1,11 @@
+package com.shelly.poc.ecs.ecsconnection;
+
+@RestController
+public class ConnectionController {
+   
+    @RequestMapping("/hello")
+    public String hello() {
+        return "hello";
+    }
+
+}

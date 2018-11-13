@@ -1,0 +1,11 @@
+---
+#memory: 4096M
+instances: 1
+
+timeout: 180
+
+# app-specific configuration
+applications:
+ - name: ecsconnection
+   path: target/ecsconnection-0.0.1-SNAPSHOT.jar
+

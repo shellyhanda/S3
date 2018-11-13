@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<definitions id="Definition"
+             targetNamespace="http://www.jboss.org/drools"
+             typeLanguage="http://www.java.com/javaTypes"
+             expressionLanguage="http://www.mvel.org/2.0"
+             xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd"
+             xmlns:g="http://www.jboss.org/drools/flow/gpd"
+             xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+             xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+             xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+             xmlns:tns="http://www.jboss.org/drools">
+
+  <itemDefinition id="_username" structureRef="String" />
+  <itemDefinition id="_loopBackStepName" structureRef="String" />
+  <itemDefinition id="_transactionid" structureRef="String" />
+  <itemDefinition id="_ruleLoopBackStep" structureRef="String" />
+  <itemDefinition id="_loppBackResetResponseData" structureRef="org.json.simple.JSONObject" />
+  <itemDefinition id="_ruleInputData" structureRef="org.json.simple.JSONObject" />
+  <itemDefinition id="_ruleInputDecisionData" structureRef="com.boeing.ecfd.cg.bpm.dto.RuleDecision" />
+  <itemDefinition id="_ruleOutputData" structureRef="com.boeing.ecfd.cg.bpm.dto.RuleDecision" />
+  <itemDefinition id="_process_type" structureRef="String" />
+  <itemDefinition id="_processid" structureRef="String" />
+
+  <process processType="Private" isExecutable="true" id="AeroDB_" name="AeroDB_" tns:packageName="com.boeing.ecfd.cg.bpm" >
+
+    <extensionElements>
+     <tns:import name="com.boeing.ecfd.cg.bpm.util.ProcessUtility" />
+     <tns:import name="com.boeing.ecfd.cg.bpm.dto.RuleDecision" />
+    </extensionElements>
+    <!-- process variables -->
+    <property id="username" itemSubjectRef="_username"/>
+    <property id="loopBackStepName" itemSubjectRef="_loopBackStepName"/>
+    <property id="transactionid" itemSubjectRef="_transactionid"/>
+    <property id="ruleLoopBackStep" itemSubjectRef="_ruleLoopBackStep"/>
+    <property id="loppBackResetResponseData" itemSubjectRef="_loppBackResetResponseData"/>
+    <property id="ruleInputData" itemSubjectRef="_ruleInputData"/>
+    <property id="ruleInputDecisionData" itemSubjectRef="_ruleInputDecisionData"/>
+    <property id="ruleOutputData" itemSubjectRef="_ruleOutputData"/>
+    <property id="process_type" itemSubjectRef="_process_type"/>
+    <property id="processid" itemSubjectRef="_processid"/>
+
+    <!-- nodes -->
+    <startEvent id="_jbpm-unique-116" name="Start"  isInterrupting="false">
+    </startEvent>
+    <userTask id="_jbpm-unique-117" name="Plan" >
+      <extensionElements>
+        <tns:onEntry-script>
+          <tns:script>System.out.println("Plan");</tns:script>
+        </tns:onEntry-script>
+      </extensionElements>
+      <ioSpecification>
+        <dataInput id="_jbpm-unique-117_TaskNameInput" name="TaskName" />
+        <dataOutput id="_jbpm-unique-117_usernameOutput" name="username" />
+        <inputSet>
+          <dataInputRefs>_jbpm-unique-117_TaskNameInput</dataInputRefs>
+        </inputSet>
+        <outputSet>
+          <dataOutputRefs>_jbpm-unique-117_usernameOutput</dataOutputRefs>
+        </outputSet>
+      </ioSpecification>
+      <dataInputAssociation>
+        <targetRef>_jbpm-unique-117_TaskNameInput</targetRef>
+        <assignment>
+          <from xsi:type="tFormalExpression">Plan</from>
+          <to xsi:type="tFormalExpression">_jbpm-unique-117_TaskNameInput</to>
+        </assignment>
+      </dataInputAssociation>
+      <dataOutputAssociation>
+        <sourceRef>_jbpm-unique-117_usernameOutput</sourceRef>
+        <targetRef>username</targetRef>
+      </dataOutputAssociation>
+      <potentialOwner>
+        <resourceAssignmentExpression>
+          <formalExpression>#{username}</formalExpression>
+        </resourceAssignmentExpression>
+      </potentialOwner>
+    </userTask>
+    <userTask id="_jbpm-unique-118" name="Setup" >
+      <extensionElements>
+        <tns:onEntry-script>
+          <tns:script>System.out.println("Setup");</tns:script>
+        </tns:onEntry-script>
+      </extensionElements>
+      <ioSpecification>
+        <dataInput id="_jbpm-unique-118_TaskNameInput" name="TaskName" />
+        <dataOutput id="_jbpm-unique-118_usernameOutput" name="username" />
+        <inputSet>
+          <dataInputRefs>_jbpm-unique-118_TaskNameInput</dataInputRefs>
+        </inputSet>
+        <outputSet>
+          <dataOutputRefs>_jbpm-unique-118_usernameOutput</dataOutputRefs>
+        </outputSet>
+      </ioSpecification>
+      <dataInputAssociation>
+        <targetRef>_jbpm-unique-118_TaskNameInput</targetRef>
+        <assignment>
+          <from xsi:type="tFormalExpression">Setup</from>
+          <to xsi:type="tFormalExpression">_jbpm-unique-118_TaskNameInput</to>
+        </assignment>
+      </dataInputAssociation>
+      <dataOutputAssociation>
+        <sourceRef>_jbpm-unique-118_usernameOutput</sourceRef>
+        <targetRef>username</targetRef>
+      </dataOutputAssociation>
+      <potentialOwner>
+        <resourceAssignmentExpression>
+          <formalExpression>#{username}</formalExpression>
+        </resourceAssignmentExpression>
+      </potentialOwner>
+    </userTask>
+    <userTask id="_jbpm-unique-119" name="Test" >
+      <extensionElements>
+        <tns:onEntry-script>
+          <tns:script>System.out.println("Test");</tns:script>
+        </tns:onEntry-script>
+      </extensionElements>
+      <ioSpecification>
+        <dataInput id="_jbpm-unique-119_TaskNameInput" name="TaskName" />
+        <dataOutput id="_jbpm-unique-119_usernameOutput" name="username" />
+        <inputSet>
+          <dataInputRefs>_jbpm-unique-119_TaskNameInput</dataInputRefs>
+        </inputSet>
+        <outputSet>
+          <dataOutputRefs>_jbpm-unique-119_usernameOutput</dataOutputRefs>
+        </outputSet>
+      </ioSpecification>
+      <dataInputAssociation>
+        <targetRef>_jbpm-unique-119_TaskNameInput</targetRef>
+        <assignment>
+          <from xsi:type="tFormalExpression">Test</from>
+          <to xsi:type="tFormalExpression">_jbpm-unique-119_TaskNameInput</to>
+        </assignment>
+      </dataInputAssociation>
+      <dataOutputAssociation>
+        <sourceRef>_jbpm-unique-119_usernameOutput</sourceRef>
+        <targetRef>username</targetRef>
+      </dataOutputAssociation>
+      <potentialOwner>
+        <resourceAssignmentExpression>
+          <formalExpression>#{username}</formalExpression>
+        </resourceAssignmentExpression>
+      </potentialOwner>
+    </userTask>
+    <userTask id="_jbpm-unique-120" name="Analyse" >
+      <extensionElements>
+        <tns:onEntry-script>
+          <tns:script>System.out.println("Analyse");</tns:script>
+        </tns:onEntry-script>
+      </extensionElements>
+      <ioSpecification>
+        <dataInput id="_jbpm-unique-120_TaskNameInput" name="TaskName" />
+        <dataOutput id="_jbpm-unique-120_usernameOutput" name="username" />
+        <inputSet>
+          <dataInputRefs>_jbpm-unique-120_TaskNameInput</dataInputRefs>
+        </inputSet>
+        <outputSet>
+          <dataOutputRefs>_jbpm-unique-120_usernameOutput</dataOutputRefs>
+        </outputSet>
+      </ioSpecification>
+      <dataInputAssociation>
+        <targetRef>_jbpm-unique-120_TaskNameInput</targetRef>
+        <assignment>
+          <from xsi:type="tFormalExpression">Analyse</from>
+          <to xsi:type="tFormalExpression">_jbpm-unique-120_TaskNameInput</to>
+        </assignment>
+      </dataInputAssociation>
+      <dataOutputAssociation>
+        <sourceRef>_jbpm-unique-120_usernameOutput</sourceRef>
+        <targetRef>username</targetRef>
+      </dataOutputAssociation>
+      <potentialOwner>
+        <resourceAssignmentExpression>
+          <formalExpression>#{username}</formalExpression>
+        </resourceAssignmentExpression>
+      </potentialOwner>
+    </userTask>
+    <endEvent id="_jbpm-unique-121" name="End" >
+        <terminateEventDefinition />
+    </endEvent>
+
+    <!-- connections -->
+    <sequenceFlow id="_jbpm-unique-116-_jbpm-unique-117" sourceRef="_jbpm-unique-116" targetRef="_jbpm-unique-117" />
+    <sequenceFlow id="_jbpm-unique-117-_jbpm-unique-118" sourceRef="_jbpm-unique-117" targetRef="_jbpm-unique-118" />
+    <sequenceFlow id="_jbpm-unique-118-_jbpm-unique-119" sourceRef="_jbpm-unique-118" targetRef="_jbpm-unique-119" />
+    <sequenceFlow id="_jbpm-unique-119-_jbpm-unique-120" sourceRef="_jbpm-unique-119" targetRef="_jbpm-unique-120" />
+    <sequenceFlow id="_jbpm-unique-120-_jbpm-unique-121" sourceRef="_jbpm-unique-120" targetRef="_jbpm-unique-121" />
+
+  </process>
+
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="AeroDB_" >
+      <bpmndi:BPMNShape bpmnElement="_jbpm-unique-116" >
+        <dc:Bounds x="0" y="0" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_jbpm-unique-117" >
+        <dc:Bounds x="0" y="0" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_jbpm-unique-118" >
+        <dc:Bounds x="0" y="0" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_jbpm-unique-119" >
+        <dc:Bounds x="0" y="0" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_jbpm-unique-120" >
+        <dc:Bounds x="0" y="0" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_jbpm-unique-121" >
+        <dc:Bounds x="0" y="0" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="_jbpm-unique-116-_jbpm-unique-117" >
+        <di:waypoint x="20" y="20" />
+        <di:waypoint x="20" y="20" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_jbpm-unique-117-_jbpm-unique-118" >
+        <di:waypoint x="20" y="20" />
+        <di:waypoint x="20" y="20" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_jbpm-unique-118-_jbpm-unique-119" >
+        <di:waypoint x="20" y="20" />
+        <di:waypoint x="20" y="20" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_jbpm-unique-119-_jbpm-unique-120" >
+        <di:waypoint x="20" y="20" />
+        <di:waypoint x="20" y="20" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_jbpm-unique-120-_jbpm-unique-121" >
+        <di:waypoint x="20" y="20" />
+        <di:waypoint x="20" y="20" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+
+</definitions>
