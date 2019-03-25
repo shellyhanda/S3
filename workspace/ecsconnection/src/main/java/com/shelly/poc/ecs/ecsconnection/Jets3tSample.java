@@ -16,7 +16,7 @@ public class Jets3tSample {
 
     public static void main(String[] args) {
         Jets3tProperties props = new Jets3tProperties();
-        props.setProperty("s3service.s3-endpoint", "objectlab.tl.boeing.com");
+        props.setProperty("s3service.s3-endpoint", "172.21.7.4");
         props.setProperty("s3service.s3-endpoint-http-port", "9020");
         props.setProperty("s3service.s3-endpoint-https-port", "9021");
         props.setProperty("s3service.disable-dns-buckets", "false");
