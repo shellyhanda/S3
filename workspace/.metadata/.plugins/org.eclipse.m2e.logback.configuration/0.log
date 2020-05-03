@@ -1,576 +1,490 @@
-2018-08-02 20:04:33,289 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
-2018-08-02 20:05:22,676 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-02 20:05:29,719 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecsconnection/src/main/java
-2018-08-02 20:05:29,720 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecsconnection/src/main/resources
-2018-08-02 20:05:29,741 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecsconnection/src/main/resources
-2018-08-02 20:05:29,758 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecsconnection/src/test/java
-2018-08-02 20:05:30,432 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 19 sec
-2018-08-02 20:05:32,383 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:05:32,430 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 20:05:32,454 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:05:32,458 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:05:32,458 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:07:24,011 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:07:24,021 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 20:07:24,025 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:07:24,036 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:07:24,037 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:07:48,443 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:07:48,445 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 20:07:48,449 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:07:48,454 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:07:48,455 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:17:59,352 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:17:59,355 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 20:17:59,360 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:17:59,365 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:17:59,366 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:19:06,705 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:19:06,708 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 20:19:06,715 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:19:06,720 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:19:06,721 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:19:45,410 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:19:45,412 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 20:19:45,418 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:19:45,423 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:19:45,424 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:20:06,574 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
-2018-08-02 20:20:08,447 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-02 20:20:09,251 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecsconnection/src/main/java
-2018-08-02 20:20:09,252 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecsconnection/src/main/resources
-2018-08-02 20:20:09,252 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecsconnection/src/main/resources
-2018-08-02 20:20:09,253 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecsconnection/src/test/java
-2018-08-02 20:20:09,674 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
-2018-08-02 20:20:10,432 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:20:10,433 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 20:20:10,450 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:20:10,454 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:20:10,454 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:20:35,160 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:20:35,162 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 20:20:35,166 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:20:35,200 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:20:35,200 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:26:51,609 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:26:51,614 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:26:51,615 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:26:51,621 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:26:51,622 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:29:26,137 [Worker-25] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
-2018-08-02 20:29:28,518 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-02 20:29:30,231 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecsconnection/src/main/java
-2018-08-02 20:29:30,232 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecsconnection/src/main/resources
-2018-08-02 20:29:30,232 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecsconnection/src/main/resources
-2018-08-02 20:29:30,233 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecsconnection/src/test/java
-2018-08-02 20:29:30,678 [Worker-25] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
-2018-08-02 20:29:31,348 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:29:31,349 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 20:29:31,365 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:29:31,368 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:29:31,368 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:31:56,474 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:31:56,480 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 20:31:56,486 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:31:56,494 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:31:56,494 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:49:04,995 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-02 20:49:06,984 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecsconnection/src/main/java
-2018-08-02 20:49:06,984 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecsconnection/src/main/resources
-2018-08-02 20:49:06,995 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecsconnection/src/main/resources
-2018-08-02 20:49:07,006 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecsconnection/src/test/java
-2018-08-02 20:49:07,521 [Worker-29] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
-2018-08-02 20:49:08,602 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:49:08,602 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 20:49:08,624 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:49:08,628 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:49:08,628 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:49:32,876 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:49:32,883 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 20:49:32,891 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:49:32,896 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:49:32,897 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:50:10,805 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:50:10,810 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 20:50:10,819 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:50:10,826 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:50:10,827 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:51:37,784 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:51:37,785 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:51:37,786 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:51:37,792 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:51:37,792 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 20:53:31,049 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:53:31,050 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:53:31,051 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 20:53:31,054 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 20:53:31,055 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 21:28:07,754 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 21:28:07,757 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 21:28:07,762 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 21:28:07,766 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 21:28:07,767 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 21:28:40,623 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 21:28:40,627 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 21:28:40,631 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 21:28:40,634 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 21:28:40,635 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 21:29:29,758 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-02 21:29:44,344 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://sres.web.boeing.com/artifactory/Maven-Snapshots/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.pom
-2018-08-02 21:29:46,756 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 21:29:46,764 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 21:29:46,765 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 21:29:46,769 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 21:29:46,769 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 21:33:00,883 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 21:33:00,886 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 21:33:00,909 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 21:33:00,912 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 21:33:00,913 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 22:48:44,177 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 22:48:44,183 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 22:48:44,191 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 22:48:44,195 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 22:48:44,195 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 22:53:34,187 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 22:53:34,191 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 22:53:34,197 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 22:53:34,202 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 22:53:34,202 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 22:53:35,252 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 22:53:35,256 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 22:53:35,264 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 22:53:35,268 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 22:53:35,269 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-02 23:14:41,585 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 23:14:41,590 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-02 23:14:41,598 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-02 23:14:41,603 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-02 23:14:41,603 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-03 11:59:34,671 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 11:59:34,674 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-03 11:59:34,680 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-03 11:59:34,684 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 11:59:34,684 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-03 12:25:35,707 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 12:25:35,710 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-03 12:25:35,715 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-03 12:25:35,721 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 12:25:35,721 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-03 12:25:52,901 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 12:25:52,903 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-03 12:25:52,908 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-03 12:25:52,912 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 12:25:52,913 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-03 12:26:31,365 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 12:26:31,367 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-03 12:26:31,372 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-03 12:26:31,375 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 12:26:31,375 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-03 12:28:00,043 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 12:28:00,047 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-03 12:28:00,054 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-03 12:28:00,059 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 12:28:00,059 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-03 12:32:04,694 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 12:32:04,697 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-03 12:32:04,703 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-03 12:32:04,706 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 12:32:04,718 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-03 12:36:37,444 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 12:36:37,448 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-03 12:36:37,453 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-03 12:36:37,457 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 12:36:37,457 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-03 13:08:10,639 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 13:08:10,642 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-03 13:08:10,646 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-03 13:08:10,649 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 13:08:10,650 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-03 13:22:32,455 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 13:22:32,456 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-03 13:22:32,460 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-03 13:22:32,462 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 13:22:32,462 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-03 13:42:44,962 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 13:42:44,965 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-03 13:42:44,970 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-03 13:42:44,974 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 13:42:44,975 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-03 22:22:35,775 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 22:22:35,780 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-03 22:22:35,786 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-03 22:22:35,790 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 22:22:35,791 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-03 23:25:24,002 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 23:25:24,005 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-03 23:25:24,010 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-03 23:25:24,013 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 23:25:24,013 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-03 23:30:39,520 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 23:30:39,536 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-03 23:30:39,536 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-03 23:30:39,536 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-03 23:30:39,536 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 10:22:02,442 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-06 10:22:02,442 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-06 10:24:01,507 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 10:24:01,514 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 10:24:01,551 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 10:24:01,554 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 10:24:01,555 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 10:24:04,423 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-06 10:24:05,894 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 10:24:05,900 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 10:24:05,915 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 10:24:05,918 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 10:24:05,919 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 10:24:08,173 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 10:24:08,175 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 10:24:08,178 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 10:24:08,181 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 10:24:08,181 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 10:24:14,204 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
-2018-08-06 12:14:04,472 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:14:04,474 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:14:04,475 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:14:04,481 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:14:04,481 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:14:30,498 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:14:30,502 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:14:30,507 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:14:30,511 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:14:30,511 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:17:49,744 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:17:49,747 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:17:49,752 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:17:49,758 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:17:49,759 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:20:53,309 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:20:53,313 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:20:53,319 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:20:53,324 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:20:53,325 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:22:33,214 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:22:33,218 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:22:33,223 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:22:33,228 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:22:33,228 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:23:15,106 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:23:15,109 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:23:15,113 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:23:15,118 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:23:15,119 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:24:16,746 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:24:16,749 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:24:16,754 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:24:16,759 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:24:16,759 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:24:18,005 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:24:18,009 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:24:18,016 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:24:18,027 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:24:18,028 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:24:27,503 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:24:27,507 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:24:27,513 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:24:27,519 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:24:27,519 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:37:50,137 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:37:50,139 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:37:50,143 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:37:50,146 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:37:50,146 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:47:02,054 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:47:02,058 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:47:02,062 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:47:02,066 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:47:02,067 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:47:03,119 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:47:03,119 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:47:03,119 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:47:03,135 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:47:03,135 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:47:15,217 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:47:15,222 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:47:15,229 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:47:15,234 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:47:15,234 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:50:33,343 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:50:33,343 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:50:33,348 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 12:50:33,353 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:50:33,353 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:55:59,947 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:56:00,009 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:56:00,009 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:56:00,037 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:56:00,037 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 12:58:37,616 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:58:37,621 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:58:37,631 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 12:58:37,636 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 12:58:37,636 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 13:00:07,838 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:00:07,854 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:00:07,854 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:00:07,854 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:00:07,854 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 13:07:38,075 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:07:38,078 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:07:38,083 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:07:38,087 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:07:38,087 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 13:09:35,115 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:09:35,120 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:09:35,127 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:09:35,141 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:09:35,151 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 13:19:27,044 [Worker-67] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-06 13:19:29,634 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:19:29,639 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 13:19:29,639 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 13:19:29,644 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:19:29,644 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 13:19:35,196 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:19:35,199 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:19:35,217 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:19:35,226 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:19:35,226 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 13:23:06,797 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:23:06,802 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:23:06,807 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:23:06,807 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:23:06,807 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 13:23:18,027 [Worker-77] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-06 13:23:19,307 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:23:19,307 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 13:23:19,307 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 13:23:19,307 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:23:19,307 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 13:23:22,492 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:23:22,495 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:23:22,517 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:23:22,526 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:23:22,526 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 13:29:46,897 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:29:46,900 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:29:46,903 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:29:46,907 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:29:46,907 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 13:30:46,976 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:30:46,980 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:30:46,985 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:30:46,988 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:30:46,989 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 13:33:11,497 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:33:11,497 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:33:11,512 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:33:11,512 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:33:11,512 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 13:33:42,911 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:33:42,914 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:33:42,919 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:33:42,922 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:33:42,923 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 13:43:21,560 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:43:21,563 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:43:21,570 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 13:43:21,575 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 13:43:21,575 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 14:20:33,114 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:20:33,114 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:20:33,130 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:20:33,130 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:20:33,130 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 14:48:08,202 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:48:08,206 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:48:08,210 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:48:08,213 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:48:08,215 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 14:48:28,670 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:48:28,670 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:48:28,670 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:48:28,671 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:48:28,671 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 14:48:29,701 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:48:29,716 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:48:29,716 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:48:29,716 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:48:29,716 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 14:49:20,219 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:49:20,221 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:49:20,226 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:49:20,230 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:49:20,230 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 14:50:37,162 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:50:37,162 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:50:37,162 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:50:37,162 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:50:37,162 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 14:51:21,665 [Worker-103] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-06 14:51:23,732 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:51:23,734 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 14:51:23,734 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 14:51:23,737 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:51:23,737 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 14:51:44,541 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:51:44,544 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:51:44,565 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:51:44,567 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:51:44,567 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 14:52:05,603 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:52:05,603 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:52:05,603 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:52:05,603 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:52:05,603 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 14:52:12,247 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:52:12,252 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:52:12,252 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:52:12,257 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:52:12,257 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 14:53:15,639 [Worker-113] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-06 14:53:16,992 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:53:16,996 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 14:53:16,997 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-06 14:53:17,000 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:53:17,000 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 14:53:19,465 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:53:19,470 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:53:19,508 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:53:19,543 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:53:19,543 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 14:54:29,810 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:54:29,811 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:54:29,812 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 14:54:29,814 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 14:54:29,814 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 15:32:27,268 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 15:32:27,272 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 15:32:27,278 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 15:32:27,282 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 15:32:27,282 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 15:32:37,112 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 15:32:37,115 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 15:32:37,119 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 15:32:37,123 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 15:32:37,124 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 15:39:18,557 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 15:39:18,567 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 15:39:18,567 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 15:39:18,567 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 15:39:18,567 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 15:50:23,777 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 15:50:23,789 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 15:50:23,799 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 15:50:23,799 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 15:50:23,799 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 15:53:10,567 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 15:53:10,567 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 15:53:10,567 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 15:53:10,567 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 15:53:10,567 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 16:56:47,952 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 16:56:47,968 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 16:56:47,968 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 16:56:47,968 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 16:56:47,968 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 16:58:09,340 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 16:58:09,356 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 16:58:09,356 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 16:58:09,356 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 16:58:09,356 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 16:58:32,695 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 16:58:32,695 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 16:58:32,741 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 16:58:32,742 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 16:58:32,742 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 17:02:13,880 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 17:02:13,880 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 17:02:13,880 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 17:02:13,896 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 17:02:13,896 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-06 17:05:28,726 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 17:05:28,728 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 17:05:28,736 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-06 17:05:28,739 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-06 17:05:28,739 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-07 09:00:52,034 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
-2018-08-07 09:00:59,621 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-07 09:01:06,808 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 09:01:06,824 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-07 09:01:06,871 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-07 09:01:06,937 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 09:01:06,938 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-07 09:01:08,876 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\pom.xml.
-2018-08-07 09:01:11,365 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 09:01:11,368 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-07 09:01:11,369 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-07 09:01:11,372 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 09:01:11,372 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-07 10:51:23,577 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 10:51:23,592 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-07 10:51:23,635 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-07 10:51:23,639 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 10:51:23,640 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-07 10:59:42,471 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 10:59:42,474 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-07 10:59:42,479 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-07 10:59:42,482 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 10:59:42,483 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-07 12:13:54,102 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 12:13:54,107 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-07 12:13:54,112 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-07 12:13:54,119 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 12:13:54,120 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-07 12:15:01,518 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 12:15:01,521 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-07 12:15:01,537 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-07 12:15:01,556 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 12:15:01,556 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-07 12:36:02,952 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 12:36:02,953 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-07 12:36:02,954 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-07 12:36:02,960 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 12:36:02,960 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-07 13:41:44,404 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 13:41:44,405 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-07 13:41:44,405 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-07 13:41:44,410 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 13:41:44,411 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-07 14:38:06,871 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 14:38:06,873 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-07 14:38:06,873 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2018-08-07 14:38:06,878 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-07 14:38:06,879 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-09 13:59:57,133 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
-2018-08-09 14:00:17,794 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-09 14:00:17,803 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-09 14:00:17,826 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-09 14:00:17,831 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-09 14:00:17,831 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-09 14:03:05,607 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-09 14:03:05,617 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-09 14:03:05,622 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-09 14:03:05,627 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-09 14:03:05,627 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-09 14:04:02,714 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-09 14:04:02,718 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-09 14:04:02,725 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-09 14:04:02,732 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-09 14:04:02,733 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-09 14:04:16,315 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-09 14:04:16,318 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-09 14:04:16,324 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-09 14:04:16,330 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-09 14:04:16,330 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-09 14:10:44,929 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-09 14:10:44,933 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-09 14:10:44,938 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-09 14:10:44,944 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-09 14:10:44,945 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
-2018-08-09 15:20:06,161 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-09 15:20:06,162 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-09 15:20:06,165 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2018-08-09 15:20:06,168 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2018-08-09 15:20:06,168 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGithub\Online_Repo\S3\workspace\ecsconnection\src\test\resources
+2020-03-11 20:16:06,203 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-11 20:16:36,883 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2020-03-11 20:21:44,810 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.2/plexus-java-0.9.2.pom
+2020-03-11 20:21:44,836 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.2/plexus-java-0.9.2.pom
+2020-03-11 20:21:44,872 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/0.9.2/plexus-languages-0.9.2.pom
+2020-03-11 20:21:44,899 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/0.9.2/plexus-languages-0.9.2.pom
+2020-03-11 20:21:44,968 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
+2020-03-11 20:21:44,993 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
+2020-03-11 20:21:45,042 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/6.0_BETA/asm-parent-6.0_BETA.pom
+2020-03-11 20:21:45,089 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/6.0_BETA/asm-parent-6.0_BETA.pom
+2020-03-11 20:21:45,169 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.pom
+2020-03-11 20:21:45,315 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.pom
+2020-03-11 20:21:45,624 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.2/plexus-compiler-api-2.8.2.pom
+2020-03-11 20:21:45,706 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.2/plexus-compiler-api-2.8.2.pom
+2020-03-11 20:21:45,779 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.2/plexus-compiler-2.8.2.pom
+2020-03-11 20:21:45,804 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.2/plexus-compiler-2.8.2.pom
+2020-03-11 20:21:45,931 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.pom
+2020-03-11 20:21:45,958 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.pom
+2020-03-11 20:21:45,991 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.2/plexus-compiler-javac-2.8.2.pom
+2020-03-11 20:21:46,016 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.2/plexus-compiler-javac-2.8.2.pom
+2020-03-11 20:21:46,047 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.2/plexus-compilers-2.8.2.pom
+2020-03-11 20:21:46,072 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.2/plexus-compilers-2.8.2.pom
+2020-03-11 20:21:46,214 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar
+2020-03-11 20:21:46,417 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar
+2020-03-11 20:21:46,448 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.2/plexus-java-0.9.2.jar
+2020-03-11 20:21:46,482 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.2/plexus-java-0.9.2.jar
+2020-03-11 20:21:46,505 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar
+2020-03-11 20:21:46,548 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar
+2020-03-11 20:21:46,580 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.jar
+2020-03-11 20:21:46,770 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.jar
+2020-03-11 20:21:46,791 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.2/plexus-compiler-api-2.8.2.jar
+2020-03-11 20:21:46,820 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.2/plexus-compiler-api-2.8.2.jar
+2020-03-11 20:21:46,837 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.jar
+2020-03-11 20:21:46,868 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.jar
+2020-03-11 20:21:46,883 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.2/plexus-compiler-javac-2.8.2.jar
+2020-03-11 20:21:46,915 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.2/plexus-compiler-javac-2.8.2.jar
+2020-03-11 20:21:48,336 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shelly.poc.ecs:ecsconnection:0.0.1-SNAPSHOT @ C:\MyGitHub\S3\workspace\ecsconnection\pom.xml.
+2020-03-11 20:21:49,918 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.5.32/tomcat-annotations-api-8.5.32.pom
+2020-03-11 20:21:49,940 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.5.32/tomcat-annotations-api-8.5.32.pom
+2020-03-11 20:21:55,205 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.pom
+2020-03-11 20:21:55,235 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.pom
+2020-03-11 20:21:55,338 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.pom
+2020-03-11 20:21:55,367 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.pom
+2020-03-11 20:21:55,528 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.pom
+2020-03-11 20:21:55,557 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.pom
+2020-03-11 20:21:55,694 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom
+2020-03-11 20:21:55,771 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom
+2020-03-11 20:21:55,934 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.11/commons-compress-1.11.pom
+2020-03-11 20:21:55,968 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.11/commons-compress-1.11.pom
+2020-03-11 20:21:56,077 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/tukaani/xz/1.5/xz-1.5.pom
+2020-03-11 20:21:56,101 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/tukaani/xz/1.5/xz-1.5.pom
+2020-03-11 20:21:56,217 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.pom
+2020-03-11 20:21:56,244 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.pom
+2020-03-11 20:21:56,414 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.jar
+2020-03-11 20:21:56,452 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.jar
+2020-03-11 20:21:56,473 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.jar
+2020-03-11 20:21:56,589 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.jar
+2020-03-11 20:21:56,614 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.jar
+2020-03-11 20:21:56,741 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.jar
+2020-03-11 20:21:56,770 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar
+2020-03-11 20:21:56,859 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar
+2020-03-11 20:21:56,887 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar
+2020-03-11 20:21:57,150 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar
+2020-03-11 20:21:57,176 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/tukaani/xz/1.5/xz-1.5.jar
+2020-03-11 20:21:57,251 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/tukaani/xz/1.5/xz-1.5.jar
+2020-03-11 20:21:57,294 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+2020-03-11 20:21:57,439 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+2020-03-11 20:21:59,797 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecsconnection/src/main/java
+2020-03-11 20:21:59,798 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecsconnection/src/main/resources
+2020-03-11 20:21:59,808 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecsconnection/src/main/resources
+2020-03-11 20:21:59,820 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecsconnection/src/test/java
+2020-03-11 20:22:00,915 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.0.4.RELEASE/spring-boot-starter-web-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:00,945 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.0.4.RELEASE/spring-boot-starter-web-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:01,129 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-web:2.0.4.RELEASE
+2020-03-11 20:22:01,155 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.0.4.RELEASE/spring-boot-starter-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:01,184 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.0.4.RELEASE/spring-boot-starter-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:01,330 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 23 sec
+2020-03-11 20:22:01,340 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter:2.0.4.RELEASE
+2020-03-11 20:22:01,395 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:01,910 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:02,141 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot:2.0.4.RELEASE
+2020-03-11 20:22:02,171 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:02,798 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:02,855 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-autoconfigure:2.0.4.RELEASE
+2020-03-11 20:22:02,885 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.0.4.RELEASE/spring-boot-starter-logging-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:02,918 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.0.4.RELEASE/spring-boot-starter-logging-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:02,981 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-logging:2.0.4.RELEASE
+2020-03-11 20:22:03,000 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0-sources.jar
+2020-03-11 20:22:03,034 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0-sources.jar
+2020-03-11 20:22:03,121 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-to-slf4j:2.10.0
+2020-03-11 20:22:03,159 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0-sources.jar
+2020-03-11 20:22:03,182 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 20:22:03,188 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 20:22:03,211 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-11 20:22:03,234 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 20:22:03,234 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGitHub\S3\workspace\ecsconnection\src\test\resources
+2020-03-11 20:22:03,374 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0-sources.jar
+2020-03-11 20:22:03,440 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-api:2.10.0
+2020-03-11 20:22:03,463 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25-sources.jar
+2020-03-11 20:22:03,488 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25-sources.jar
+2020-03-11 20:22:03,557 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:jul-to-slf4j:1.7.25
+2020-03-11 20:22:03,577 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19-sources.jar
+2020-03-11 20:22:03,706 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19-sources.jar
+2020-03-11 20:22:03,774 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.yaml:snakeyaml:1.19
+2020-03-11 20:22:03,794 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.0.4.RELEASE/spring-boot-starter-json-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:03,822 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.0.4.RELEASE/spring-boot-starter-json-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:03,885 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-json:2.0.4.RELEASE
+2020-03-11 20:22:03,906 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6-sources.jar
+2020-03-11 20:22:04,712 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6-sources.jar
+2020-03-11 20:22:04,825 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.9.6
+2020-03-11 20:22:04,855 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6-sources.jar
+2020-03-11 20:22:05,046 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6-sources.jar
+2020-03-11 20:22:05,126 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.9.6
+2020-03-11 20:22:05,155 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.6/jackson-datatype-jdk8-2.9.6-sources.jar
+2020-03-11 20:22:05,186 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.6/jackson-datatype-jdk8-2.9.6-sources.jar
+2020-03-11 20:22:05,255 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.6
+2020-03-11 20:22:05,285 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.6/jackson-datatype-jsr310-2.9.6-sources.jar
+2020-03-11 20:22:05,352 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.6/jackson-datatype-jsr310-2.9.6-sources.jar
+2020-03-11 20:22:05,425 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.6
+2020-03-11 20:22:05,446 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.6/jackson-module-parameter-names-2.9.6-sources.jar
+2020-03-11 20:22:05,473 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.6/jackson-module-parameter-names-2.9.6-sources.jar
+2020-03-11 20:22:05,536 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.6
+2020-03-11 20:22:05,575 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.0.4.RELEASE/spring-boot-starter-tomcat-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:05,630 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.0.4.RELEASE/spring-boot-starter-tomcat-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:05,750 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-tomcat:2.0.4.RELEASE
+2020-03-11 20:22:05,789 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32-sources.jar
+2020-03-11 20:22:07,715 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32-sources.jar
+2020-03-11 20:22:07,785 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-core:8.5.32
+2020-03-11 20:22:07,813 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.32/tomcat-embed-el-8.5.32-sources.jar
+2020-03-11 20:22:07,942 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.32/tomcat-embed-el-8.5.32-sources.jar
+2020-03-11 20:22:08,012 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-el:8.5.32
+2020-03-11 20:22:08,069 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.32/tomcat-embed-websocket-8.5.32-sources.jar
+2020-03-11 20:22:08,186 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.32/tomcat-embed-websocket-8.5.32-sources.jar
+2020-03-11 20:22:08,264 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-websocket:8.5.32
+2020-03-11 20:22:08,313 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.11.Final/hibernate-validator-6.0.11.Final-sources.jar
+2020-03-11 20:22:08,796 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.11.Final/hibernate-validator-6.0.11.Final-sources.jar
+2020-03-11 20:22:08,919 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.validator:hibernate-validator:6.0.11.Final
+2020-03-11 20:22:08,951 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.3.4/classmate-1.3.4-sources.jar
+2020-03-11 20:22:09,021 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.3.4/classmate-1.3.4-sources.jar
+2020-03-11 20:22:09,096 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml:classmate:1.3.4
+2020-03-11 20:22:09,146 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:09,919 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:09,979 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:5.0.8.RELEASE
+2020-03-11 20:22:10,009 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:10,406 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:10,476 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.0.8.RELEASE
+2020-03-11 20:22:10,522 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:10,937 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:11,004 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.0.8.RELEASE
+2020-03-11 20:22:11,031 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:11,247 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:11,313 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.0.8.RELEASE
+2020-03-11 20:22:11,329 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:11,919 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:12,023 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:5.0.8.RELEASE
+2020-03-11 20:22:12,045 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.0.8.RELEASE/spring-expression-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:12,430 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.0.8.RELEASE/spring-expression-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:12,888 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.0.8.RELEASE
+2020-03-11 20:22:12,949 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.0.4.RELEASE/spring-boot-starter-test-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:12,978 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.0.4.RELEASE/spring-boot-starter-test-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:13,136 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-test:2.0.4.RELEASE
+2020-03-11 20:22:13,157 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.0.4.RELEASE/spring-boot-test-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:13,250 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.0.4.RELEASE/spring-boot-test-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:13,382 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test:2.0.4.RELEASE
+2020-03-11 20:22:13,410 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.0.4.RELEASE/spring-boot-test-autoconfigure-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:13,500 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.0.4.RELEASE/spring-boot-test-autoconfigure-2.0.4.RELEASE-sources.jar
+2020-03-11 20:22:13,564 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test-autoconfigure:2.0.4.RELEASE
+2020-03-11 20:22:13,594 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2020-03-11 20:22:13,645 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2020-03-11 20:22:13,724 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.25
+2020-03-11 20:22:13,771 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.9.1/assertj-core-3.9.1-sources.jar
+2020-03-11 20:22:14,371 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.9.1/assertj-core-3.9.1-sources.jar
+2020-03-11 20:22:14,430 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.assertj:assertj-core:3.9.1
+2020-03-11 20:22:14,452 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0-sources.jar
+2020-03-11 20:22:14,726 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0-sources.jar
+2020-03-11 20:22:14,789 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mockito:mockito-core:2.15.0
+2020-03-11 20:22:14,818 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.7.11/byte-buddy-1.7.11-sources.jar
+2020-03-11 20:22:15,729 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.7.11/byte-buddy-1.7.11-sources.jar
+2020-03-11 20:22:15,839 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.7.11
+2020-03-11 20:22:15,873 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.7.11/byte-buddy-agent-1.7.11-sources.jar
+2020-03-11 20:22:15,930 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.7.11/byte-buddy-agent-1.7.11-sources.jar
+2020-03-11 20:22:16,000 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy-agent:1.7.11
+2020-03-11 20:22:16,021 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:16,581 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:16,649 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.0.8.RELEASE
+2020-03-11 20:22:16,670 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.0.8.RELEASE/spring-jcl-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:16,730 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.0.8.RELEASE/spring-jcl-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:16,836 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:5.0.8.RELEASE
+2020-03-11 20:22:16,863 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.0.8.RELEASE/spring-test-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:17,204 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.0.8.RELEASE/spring-test-5.0.8.RELEASE-sources.jar
+2020-03-11 20:22:17,273 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:5.0.8.RELEASE
+2020-03-11 20:22:17,309 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.5.1/xmlunit-core-2.5.1-sources.jar
+2020-03-11 20:22:17,377 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.5.1/xmlunit-core-2.5.1-sources.jar
+2020-03-11 20:22:17,435 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.xmlunit:xmlunit-core:2.5.1
+2020-03-11 20:22:17,518 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk/1.9.6/aws-java-sdk-1.9.6-sources.jar
+2020-03-11 20:22:17,527 [Worker-20: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.amazonaws:aws-java-sdk:1.9.6
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.amazonaws:aws-java-sdk:jar:sources:1.9.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.300.v20190215-2048.jar:na]
+2020-03-11 20:22:17,667 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-elastictranscoder/1.9.6/aws-java-sdk-elastictranscoder-1.9.6-sources.jar
+2020-03-11 20:22:17,952 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-elastictranscoder/1.9.6/aws-java-sdk-elastictranscoder-1.9.6-sources.jar
+2020-03-11 20:22:18,018 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-elastictranscoder:1.9.6
+2020-03-11 20:22:18,125 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-core/1.9.6/aws-java-sdk-core-1.9.6-sources.jar
+2020-03-11 20:22:18,422 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-core/1.9.6/aws-java-sdk-core-1.9.6-sources.jar
+2020-03-11 20:22:18,480 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-core:1.9.6
+2020-03-11 20:22:18,507 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar
+2020-03-11 20:22:19,078 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar
+2020-03-11 20:22:19,191 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for joda-time:joda-time:2.9.9
+2020-03-11 20:22:19,293 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.9.6/aws-java-sdk-ec2-1.9.6-sources.jar
+2020-03-11 20:22:20,352 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.9.6/aws-java-sdk-ec2-1.9.6-sources.jar
+2020-03-11 20:22:20,418 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-ec2:1.9.6
+2020-03-11 20:22:20,583 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-config/1.9.6/aws-java-sdk-config-1.9.6-sources.jar
+2020-03-11 20:22:20,746 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-config/1.9.6/aws-java-sdk-config-1.9.6-sources.jar
+2020-03-11 20:22:20,810 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-config:1.9.6
+2020-03-11 20:22:20,911 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-emr/1.9.6/aws-java-sdk-emr-1.9.6-sources.jar
+2020-03-11 20:22:21,159 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-emr/1.9.6/aws-java-sdk-emr-1.9.6-sources.jar
+2020-03-11 20:22:21,259 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-emr:1.9.6
+2020-03-11 20:22:21,368 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-swf-libraries/1.9.6/aws-java-sdk-swf-libraries-1.9.6-sources.jar
+2020-03-11 20:22:21,623 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-swf-libraries/1.9.6/aws-java-sdk-swf-libraries-1.9.6-sources.jar
+2020-03-11 20:22:21,681 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-swf-libraries:1.9.6
+2020-03-11 20:22:21,787 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-simpleworkflow/1.9.6/aws-java-sdk-simpleworkflow-1.9.6-sources.jar
+2020-03-11 20:22:22,130 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-simpleworkflow/1.9.6/aws-java-sdk-simpleworkflow-1.9.6-sources.jar
+2020-03-11 20:22:22,204 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-simpleworkflow:1.9.6
+2020-03-11 20:22:22,316 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-opsworks/1.9.6/aws-java-sdk-opsworks-1.9.6-sources.jar
+2020-03-11 20:22:22,706 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-opsworks/1.9.6/aws-java-sdk-opsworks-1.9.6-sources.jar
+2020-03-11 20:22:22,765 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-opsworks:1.9.6
+2020-03-11 20:22:22,911 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-kinesis/1.9.6/aws-java-sdk-kinesis-1.9.6-sources.jar
+2020-03-11 20:22:23,147 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-kinesis/1.9.6/aws-java-sdk-kinesis-1.9.6-sources.jar
+2020-03-11 20:22:23,215 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-kinesis:1.9.6
+2020-03-11 20:22:23,315 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-elasticloadbalancing/1.9.6/aws-java-sdk-elasticloadbalancing-1.9.6-sources.jar
+2020-03-11 20:22:23,556 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-elasticloadbalancing/1.9.6/aws-java-sdk-elasticloadbalancing-1.9.6-sources.jar
+2020-03-11 20:22:23,618 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-elasticloadbalancing:1.9.6
+2020-03-11 20:22:23,728 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-elasticache/1.9.6/aws-java-sdk-elasticache-1.9.6-sources.jar
+2020-03-11 20:22:24,021 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-elasticache/1.9.6/aws-java-sdk-elasticache-1.9.6-sources.jar
+2020-03-11 20:22:24,087 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-elasticache:1.9.6
+2020-03-11 20:22:24,191 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cognitosync/1.9.6/aws-java-sdk-cognitosync-1.9.6-sources.jar
+2020-03-11 20:22:24,272 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cognitosync/1.9.6/aws-java-sdk-cognitosync-1.9.6-sources.jar
+2020-03-11 20:22:24,334 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cognitosync:1.9.6
+2020-03-11 20:22:24,445 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-simpledb/1.9.6/aws-java-sdk-simpledb-1.9.6-sources.jar
+2020-03-11 20:22:24,598 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-simpledb/1.9.6/aws-java-sdk-simpledb-1.9.6-sources.jar
+2020-03-11 20:22:24,660 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-simpledb:1.9.6
+2020-03-11 20:22:24,763 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-sts/1.9.6/aws-java-sdk-sts-1.9.6-sources.jar
+2020-03-11 20:22:24,854 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-sts/1.9.6/aws-java-sdk-sts-1.9.6-sources.jar
+2020-03-11 20:22:24,954 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-sts:1.9.6
+2020-03-11 20:22:25,048 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-importexport/1.9.6/aws-java-sdk-importexport-1.9.6-sources.jar
+2020-03-11 20:22:25,101 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-importexport/1.9.6/aws-java-sdk-importexport-1.9.6-sources.jar
+2020-03-11 20:22:25,185 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-importexport:1.9.6
+2020-03-11 20:22:25,216 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cloudtrail/1.9.6/aws-java-sdk-cloudtrail-1.9.6-sources.jar
+2020-03-11 20:22:25,337 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cloudtrail/1.9.6/aws-java-sdk-cloudtrail-1.9.6-sources.jar
+2020-03-11 20:22:25,405 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cloudtrail:1.9.6
+2020-03-11 20:22:25,510 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cloudwatchmetrics/1.9.6/aws-java-sdk-cloudwatchmetrics-1.9.6-sources.jar
+2020-03-11 20:22:25,605 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cloudwatchmetrics/1.9.6/aws-java-sdk-cloudwatchmetrics-1.9.6-sources.jar
+2020-03-11 20:22:25,666 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cloudwatchmetrics:1.9.6
+2020-03-11 20:22:25,766 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cloudwatch/1.9.6/aws-java-sdk-cloudwatch-1.9.6-sources.jar
+2020-03-11 20:22:25,864 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cloudwatch/1.9.6/aws-java-sdk-cloudwatch-1.9.6-sources.jar
+2020-03-11 20:22:25,938 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cloudwatch:1.9.6
+2020-03-11 20:22:26,100 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-dynamodb/1.9.6/aws-java-sdk-dynamodb-1.9.6-sources.jar
+2020-03-11 20:22:26,508 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-dynamodb/1.9.6/aws-java-sdk-dynamodb-1.9.6-sources.jar
+2020-03-11 20:22:26,571 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-dynamodb:1.9.6
+2020-03-11 20:22:26,695 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-route53/1.9.6/aws-java-sdk-route53-1.9.6-sources.jar
+2020-03-11 20:22:27,028 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-route53/1.9.6/aws-java-sdk-route53-1.9.6-sources.jar
+2020-03-11 20:22:27,095 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-route53:1.9.6
+2020-03-11 20:22:27,198 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-storagegateway/1.9.6/aws-java-sdk-storagegateway-1.9.6-sources.jar
+2020-03-11 20:22:27,571 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-storagegateway/1.9.6/aws-java-sdk-storagegateway-1.9.6-sources.jar
+2020-03-11 20:22:27,647 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-storagegateway:1.9.6
+2020-03-11 20:22:27,680 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-ses/1.9.6/aws-java-sdk-ses-1.9.6-sources.jar
+2020-03-11 20:22:27,771 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-ses/1.9.6/aws-java-sdk-ses-1.9.6-sources.jar
+2020-03-11 20:22:27,829 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-ses:1.9.6
+2020-03-11 20:22:27,863 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-support/1.9.6/aws-java-sdk-support-1.9.6-sources.jar
+2020-03-11 20:22:27,968 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-support/1.9.6/aws-java-sdk-support-1.9.6-sources.jar
+2020-03-11 20:22:28,063 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-support:1.9.6
+2020-03-11 20:22:28,189 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cloudfront/1.9.6/aws-java-sdk-cloudfront-1.9.6-sources.jar
+2020-03-11 20:22:28,695 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cloudfront/1.9.6/aws-java-sdk-cloudfront-1.9.6-sources.jar
+2020-03-11 20:22:28,762 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cloudfront:1.9.6
+2020-03-11 20:22:28,791 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cloudformation/1.9.6/aws-java-sdk-cloudformation-1.9.6-sources.jar
+2020-03-11 20:22:28,960 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cloudformation/1.9.6/aws-java-sdk-cloudformation-1.9.6-sources.jar
+2020-03-11 20:22:29,017 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cloudformation:1.9.6
+2020-03-11 20:22:29,115 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-directconnect/1.9.6/aws-java-sdk-directconnect-1.9.6-sources.jar
+2020-03-11 20:22:29,386 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-directconnect/1.9.6/aws-java-sdk-directconnect-1.9.6-sources.jar
+2020-03-11 20:22:29,438 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-directconnect:1.9.6
+2020-03-11 20:22:29,536 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-elasticbeanstalk/1.9.6/aws-java-sdk-elasticbeanstalk-1.9.6-sources.jar
+2020-03-11 20:22:29,811 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-elasticbeanstalk/1.9.6/aws-java-sdk-elasticbeanstalk-1.9.6-sources.jar
+2020-03-11 20:22:29,869 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-elasticbeanstalk:1.9.6
+2020-03-11 20:22:29,887 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-redshift/1.9.6/aws-java-sdk-redshift-1.9.6-sources.jar
+2020-03-11 20:22:30,192 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-redshift/1.9.6/aws-java-sdk-redshift-1.9.6-sources.jar
+2020-03-11 20:22:30,255 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-redshift:1.9.6
+2020-03-11 20:22:30,384 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-datapipeline/1.9.6/aws-java-sdk-datapipeline-1.9.6-sources.jar
+2020-03-11 20:22:30,582 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-datapipeline/1.9.6/aws-java-sdk-datapipeline-1.9.6-sources.jar
+2020-03-11 20:22:30,787 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-datapipeline:1.9.6
+2020-03-11 20:22:30,918 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-lambda/1.9.6/aws-java-sdk-lambda-1.9.6-sources.jar
+2020-03-11 20:22:31,065 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-lambda/1.9.6/aws-java-sdk-lambda-1.9.6-sources.jar
+2020-03-11 20:22:31,132 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-lambda:1.9.6
+2020-03-11 20:22:31,270 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-autoscaling/1.9.6/aws-java-sdk-autoscaling-1.9.6-sources.jar
+2020-03-11 20:22:31,475 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-autoscaling/1.9.6/aws-java-sdk-autoscaling-1.9.6-sources.jar
+2020-03-11 20:22:31,537 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-autoscaling:1.9.6
+2020-03-11 20:22:31,627 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cognitoidentity/1.9.6/aws-java-sdk-cognitoidentity-1.9.6-sources.jar
+2020-03-11 20:22:31,788 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cognitoidentity/1.9.6/aws-java-sdk-cognitoidentity-1.9.6-sources.jar
+2020-03-11 20:22:31,887 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cognitoidentity:1.9.6
+2020-03-11 20:22:32,047 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-iam/1.9.6/aws-java-sdk-iam-1.9.6-sources.jar
+2020-03-11 20:22:32,543 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-iam/1.9.6/aws-java-sdk-iam-1.9.6-sources.jar
+2020-03-11 20:22:32,599 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-iam:1.9.6
+2020-03-11 20:22:32,707 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-glacier/1.9.6/aws-java-sdk-glacier-1.9.6-sources.jar
+2020-03-11 20:22:32,938 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-glacier/1.9.6/aws-java-sdk-glacier-1.9.6-sources.jar
+2020-03-11 20:22:32,995 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-glacier:1.9.6
+2020-03-11 20:22:33,114 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-sqs/1.9.6/aws-java-sdk-sqs-1.9.6-sources.jar
+2020-03-11 20:22:33,316 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-sqs/1.9.6/aws-java-sdk-sqs-1.9.6-sources.jar
+2020-03-11 20:22:33,379 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-sqs:1.9.6
+2020-03-11 20:22:33,499 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-sns/1.9.6/aws-java-sdk-sns-1.9.6-sources.jar
+2020-03-11 20:22:33,719 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-sns/1.9.6/aws-java-sdk-sns-1.9.6-sources.jar
+2020-03-11 20:22:33,917 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-sns:1.9.6
+2020-03-11 20:22:33,954 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-s3/1.9.6/aws-java-sdk-s3-1.9.6-sources.jar
+2020-03-11 20:22:34,474 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-s3/1.9.6/aws-java-sdk-s3-1.9.6-sources.jar
+2020-03-11 20:22:34,530 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-s3:1.9.6
+2020-03-11 20:22:34,668 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-kms/1.9.6/aws-java-sdk-kms-1.9.6-sources.jar
+2020-03-11 20:22:34,902 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-kms/1.9.6/aws-java-sdk-kms-1.9.6-sources.jar
+2020-03-11 20:22:34,968 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-kms:1.9.6
+2020-03-11 20:22:35,133 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cloudsearch/1.9.6/aws-java-sdk-cloudsearch-1.9.6-sources.jar
+2020-03-11 20:22:35,541 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-cloudsearch/1.9.6/aws-java-sdk-cloudsearch-1.9.6-sources.jar
+2020-03-11 20:22:35,630 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cloudsearch:1.9.6
+2020-03-11 20:22:35,658 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-logs/1.9.6/aws-java-sdk-logs-1.9.6-sources.jar
+2020-03-11 20:22:35,802 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-logs/1.9.6/aws-java-sdk-logs-1.9.6-sources.jar
+2020-03-11 20:22:35,862 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-logs:1.9.6
+2020-03-11 20:22:35,975 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-codedeploy/1.9.6/aws-java-sdk-codedeploy-1.9.6-sources.jar
+2020-03-11 20:22:36,220 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-codedeploy/1.9.6/aws-java-sdk-codedeploy-1.9.6-sources.jar
+2020-03-11 20:22:36,322 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-codedeploy:1.9.6
+2020-03-11 20:22:36,432 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-rds/1.9.6/aws-java-sdk-rds-1.9.6-sources.jar
+2020-03-11 20:22:36,860 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-rds/1.9.6/aws-java-sdk-rds-1.9.6-sources.jar
+2020-03-11 20:22:36,917 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-rds:1.9.6
+2020-03-11 20:22:36,964 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/dev/jets3t/jets3t/0.9.4/jets3t-0.9.4-sources.jar
+2020-03-11 20:22:38,354 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/dev/jets3t/jets3t/0.9.4/jets3t-0.9.4-sources.jar
+2020-03-11 20:22:38,412 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.java.dev.jets3t:jets3t:0.9.4
+2020-03-11 20:22:38,447 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10-sources.jar
+2020-03-11 20:22:38,659 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10-sources.jar
+2020-03-11 20:22:38,721 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpcore:4.4.10
+2020-03-11 20:22:38,758 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar
+2020-03-11 20:22:39,160 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar
+2020-03-11 20:22:39,229 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpclient:4.5.6
+2020-03-11 20:22:39,257 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11-sources.jar
+2020-03-11 20:22:39,459 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11-sources.jar
+2020-03-11 20:22:39,563 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-codec:commons-codec:1.11
+2020-03-11 20:22:39,589 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1-sources.jar
+2020-03-11 20:22:39,675 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1-sources.jar
+2020-03-11 20:22:39,805 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:activation:1.1.1
+2020-03-11 20:22:39,853 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52-sources.jar
+2020-03-11 20:22:41,795 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52-sources.jar
+2020-03-11 20:22:41,903 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.bouncycastle:bcprov-jdk15on:1.52
+2020-03-11 20:22:41,926 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jamesmurty/utils/java-xmlbuilder/1.1/java-xmlbuilder-1.1-sources.jar
+2020-03-11 20:22:41,954 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jamesmurty/utils/java-xmlbuilder/1.1/java-xmlbuilder-1.1-sources.jar
+2020-03-11 20:22:42,016 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jamesmurty.utils:java-xmlbuilder:1.1
+2020-03-11 20:22:42,042 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/iharder/base64/2.3.8/base64-2.3.8-sources.jar
+2020-03-11 20:22:42,071 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/iharder/base64/2.3.8/base64-2.3.8-sources.jar
+2020-03-11 20:22:42,128 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.iharder:base64:2.3.8
+2020-03-11 20:22:43,052 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 20:22:43,053 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 20:22:43,054 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 20:22:43,056 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 20:22:43,057 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGitHub\S3\workspace\ecsconnection\src\test\resources
+2020-03-11 20:22:43,917 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-web:2.0.4.RELEASE
+2020-03-11 20:22:43,920 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter:2.0.4.RELEASE
+2020-03-11 20:22:43,924 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot:2.0.4.RELEASE
+2020-03-11 20:22:43,927 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-autoconfigure:2.0.4.RELEASE
+2020-03-11 20:22:43,931 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-logging:2.0.4.RELEASE
+2020-03-11 20:22:43,935 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-to-slf4j:2.10.0
+2020-03-11 20:22:43,938 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-api:2.10.0
+2020-03-11 20:22:43,942 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:jul-to-slf4j:1.7.25
+2020-03-11 20:22:43,945 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.yaml:snakeyaml:1.19
+2020-03-11 20:22:43,949 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-json:2.0.4.RELEASE
+2020-03-11 20:22:43,952 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.9.6
+2020-03-11 20:22:43,956 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.9.6
+2020-03-11 20:22:43,959 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.6
+2020-03-11 20:22:43,964 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.6
+2020-03-11 20:22:43,967 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.6
+2020-03-11 20:22:43,971 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-tomcat:2.0.4.RELEASE
+2020-03-11 20:22:43,975 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-core:8.5.32
+2020-03-11 20:22:43,979 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-el:8.5.32
+2020-03-11 20:22:43,983 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-websocket:8.5.32
+2020-03-11 20:22:43,988 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.validator:hibernate-validator:6.0.11.Final
+2020-03-11 20:22:43,991 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml:classmate:1.3.4
+2020-03-11 20:22:43,996 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:5.0.8.RELEASE
+2020-03-11 20:22:43,999 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.0.8.RELEASE
+2020-03-11 20:22:44,004 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.0.8.RELEASE
+2020-03-11 20:22:44,019 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.0.8.RELEASE
+2020-03-11 20:22:44,025 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:5.0.8.RELEASE
+2020-03-11 20:22:44,030 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.0.8.RELEASE
+2020-03-11 20:22:44,035 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-test:2.0.4.RELEASE
+2020-03-11 20:22:44,040 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test:2.0.4.RELEASE
+2020-03-11 20:22:44,045 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test-autoconfigure:2.0.4.RELEASE
+2020-03-11 20:22:44,049 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.25
+2020-03-11 20:22:44,054 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.assertj:assertj-core:3.9.1
+2020-03-11 20:22:44,058 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mockito:mockito-core:2.15.0
+2020-03-11 20:22:44,063 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.7.11
+2020-03-11 20:22:44,067 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy-agent:1.7.11
+2020-03-11 20:22:44,071 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.0.8.RELEASE
+2020-03-11 20:22:44,076 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:5.0.8.RELEASE
+2020-03-11 20:22:44,082 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:5.0.8.RELEASE
+2020-03-11 20:22:44,086 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.xmlunit:xmlunit-core:2.5.1
+2020-03-11 20:22:44,281 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk/1.9.6/aws-java-sdk-1.9.6-javadoc.jar
+2020-03-11 20:22:44,286 [Worker-23: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.amazonaws:aws-java-sdk:1.9.6
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.amazonaws:aws-java-sdk:jar:javadoc:1.9.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.300.v20190215-2048.jar:na]
+2020-03-11 20:22:44,292 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-elastictranscoder:1.9.6
+2020-03-11 20:22:44,296 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-core:1.9.6
+2020-03-11 20:22:44,299 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for joda-time:joda-time:2.9.9
+2020-03-11 20:22:44,303 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-ec2:1.9.6
+2020-03-11 20:22:44,307 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-config:1.9.6
+2020-03-11 20:22:44,311 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-emr:1.9.6
+2020-03-11 20:22:44,316 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-swf-libraries:1.9.6
+2020-03-11 20:22:44,320 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-simpleworkflow:1.9.6
+2020-03-11 20:22:44,324 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-opsworks:1.9.6
+2020-03-11 20:22:44,329 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-kinesis:1.9.6
+2020-03-11 20:22:44,333 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-elasticloadbalancing:1.9.6
+2020-03-11 20:22:44,338 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-elasticache:1.9.6
+2020-03-11 20:22:44,341 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cognitosync:1.9.6
+2020-03-11 20:22:44,346 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-simpledb:1.9.6
+2020-03-11 20:22:44,350 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-sts:1.9.6
+2020-03-11 20:22:44,354 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-importexport:1.9.6
+2020-03-11 20:22:44,358 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cloudtrail:1.9.6
+2020-03-11 20:22:44,362 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cloudwatchmetrics:1.9.6
+2020-03-11 20:22:44,366 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cloudwatch:1.9.6
+2020-03-11 20:22:44,369 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-dynamodb:1.9.6
+2020-03-11 20:22:44,373 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-route53:1.9.6
+2020-03-11 20:22:44,377 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-storagegateway:1.9.6
+2020-03-11 20:22:44,381 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-ses:1.9.6
+2020-03-11 20:22:44,385 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-support:1.9.6
+2020-03-11 20:22:44,389 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cloudfront:1.9.6
+2020-03-11 20:22:44,392 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cloudformation:1.9.6
+2020-03-11 20:22:44,396 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-directconnect:1.9.6
+2020-03-11 20:22:44,399 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-elasticbeanstalk:1.9.6
+2020-03-11 20:22:44,403 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-redshift:1.9.6
+2020-03-11 20:22:44,406 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-datapipeline:1.9.6
+2020-03-11 20:22:44,410 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-lambda:1.9.6
+2020-03-11 20:22:44,425 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-autoscaling:1.9.6
+2020-03-11 20:22:44,429 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cognitoidentity:1.9.6
+2020-03-11 20:22:44,434 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-iam:1.9.6
+2020-03-11 20:22:44,438 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-glacier:1.9.6
+2020-03-11 20:22:44,443 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-sqs:1.9.6
+2020-03-11 20:22:44,446 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-sns:1.9.6
+2020-03-11 20:22:44,450 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-s3:1.9.6
+2020-03-11 20:22:44,454 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-kms:1.9.6
+2020-03-11 20:22:44,459 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-cloudsearch:1.9.6
+2020-03-11 20:22:44,463 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-logs:1.9.6
+2020-03-11 20:22:44,468 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-codedeploy:1.9.6
+2020-03-11 20:22:44,472 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-rds:1.9.6
+2020-03-11 20:22:44,477 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.java.dev.jets3t:jets3t:0.9.4
+2020-03-11 20:22:44,481 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpcore:4.4.10
+2020-03-11 20:22:44,485 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpclient:4.5.6
+2020-03-11 20:22:44,489 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-codec:commons-codec:1.11
+2020-03-11 20:22:44,493 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:activation:1.1.1
+2020-03-11 20:22:44,496 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.bouncycastle:bcprov-jdk15on:1.52
+2020-03-11 20:22:44,499 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jamesmurty.utils:java-xmlbuilder:1.1
+2020-03-11 20:22:44,503 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.iharder:base64:2.3.8
+2020-03-11 20:22:45,116 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 20:22:45,117 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 20:22:45,117 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-11 20:22:45,119 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-11 20:22:45,119 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\MyGitHub\S3\workspace\ecsconnection\src\test\resources
+2020-03-18 13:47:02,972 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
